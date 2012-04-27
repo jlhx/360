@@ -84,7 +84,6 @@ public class Main {
         return temp;
     }
     public static void save() {
-        //TODO add 2player save
         SaveData s = SaveData.getInstance();
         UserData d = UserData.getInstance();
         Transfer t = Transfer.getInstance();

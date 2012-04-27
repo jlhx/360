@@ -4693,8 +4693,15 @@ public class guiFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_listHorizontalMouseReleased
 
     private void buttonPauseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonPauseActionPerformed
-        // TODO make it so pause says unpause and revense on click and make the hints unselectable
         Transfer t = Transfer.getInstance();
+        
+        if( !t.isPaused ) {
+            buttonPause.setText("Unpause");
+        }
+        else {
+            buttonPause.setText("Pause");
+        }
+        
         t.isPaused = !t.isPaused;
     }//GEN-LAST:event_buttonPauseActionPerformed
 
