@@ -153,10 +153,7 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
                     listSelect.getSelectedIndex() != -1) {
                 d.uDifficulty = listDifficulty.getSelectedIndex()+1;
                 d.uNumPlayers = listNumbPlayers.getSelectedIndex()+1;
-                
-                if( d.uDifficulty == 2 || d.uDifficulty == 3 ) {
-                    d.uBoard_.bScore = new Score(0.0, -1);
-                }
+                d.uBoard_.bScore = new Score(0.0, -1);
                 
                 InputTest it = new InputTest();
                 it.main();

@@ -124,10 +124,11 @@ public class wordSubmitFrame extends javax.swing.JFrame {
                         if( d.uHints[i].guess.compareTo(d.uHints[i].answer) != 0 ) {
                             d.uBoard_.bScore.uScore--;
                         }
-                        else{
-                            d.uBoard_.bScore.uScore += 10;
-                        }
                     }
+                    if( d.uHints[i].guess.compareTo(d.uHints[i].answer) == 0 ) {
+                        d.uBoard_.bScore.uScore += 10;
+                    }
+                    t.scoreContain.setText(""+d.uBoard_.bScore.uScore);
                     break;
                 }
             }

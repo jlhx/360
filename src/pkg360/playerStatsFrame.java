@@ -150,7 +150,6 @@ public class playerStatsFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
-        // TODO fix to only show the logged user's scores
         String line = "";
         Gson gson = new Gson();
         UserData d = UserData.getInstance();
