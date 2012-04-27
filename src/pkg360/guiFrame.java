@@ -717,7 +717,7 @@ public class guiFrame extends javax.swing.JFrame {
         textScore1 = new javax.swing.JTextField();
         labelHidden2 = new javax.swing.JLabel();
         labelPlayer2 = new javax.swing.JLabel();
-        jLabel459 = new javax.swing.JLabel();
+        labelTurn = new javax.swing.JLabel();
         buttonPause = new javax.swing.JButton();
         buttonSaveGame = new javax.swing.JButton();
         buttonScoreGame = new javax.swing.JButton();
@@ -3914,7 +3914,7 @@ public class guiFrame extends javax.swing.JFrame {
 
         labelPlayer2.setText("player1");
 
-        jLabel459.setText("Turn: Player 1");
+        labelTurn.setText("Turn: Player 1");
 
         buttonPause.setText("Pause");
         buttonPause.addActionListener(new java.awt.event.ActionListener() {
@@ -3966,7 +3966,7 @@ public class guiFrame extends javax.swing.JFrame {
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel227Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel459)
+                .addComponent(labelTurn)
                 .addGap(18, 18, 18)
                 .addComponent(buttonPause)
                 .addGap(31, 31, 31))
@@ -3986,7 +3986,7 @@ public class guiFrame extends javax.swing.JFrame {
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel227Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel459, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(labelTurn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonPause))
                 .addGap(24, 24, 24)
                 .addGroup(jPanel227Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -4312,6 +4312,9 @@ public class guiFrame extends javax.swing.JFrame {
         t.textScorep1.setVisible(false);
         
         t.isPaused = false;
+        
+        t.lTurn = this.labelTurn;
+        t.lTurn.setVisible(false);
     }//GEN-LAST:event_formWindowOpened
 
     private void buttonScoreGameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonScoreGameActionPerformed
@@ -4323,6 +4326,7 @@ public class guiFrame extends javax.swing.JFrame {
         String line;
         if( d.uName != null ) {
             if( d.uBoard_.bScore == null ) {
+                //Only happens on score with no game selected
                 if( d.uHints != null ) {
                     double tmp = 0.0;
                     for (int i = 0; i < d.uHints.length; i++) {
@@ -4392,6 +4396,7 @@ public class guiFrame extends javax.swing.JFrame {
                 catch(Exception e) {
                     System.out.println("Exceptione is ="+e.getMessage());
                 }
+                //Save has finished
                 textScore.setText(""+d.uBoard_.bScore.uScore);
                 Main.cancelTimer();
             }
@@ -4889,7 +4894,6 @@ public class guiFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel453;
     private javax.swing.JLabel jLabel454;
     private javax.swing.JLabel jLabel455;
-    private javax.swing.JLabel jLabel459;
     private javax.swing.JLabel jLabel46;
     private javax.swing.JLabel jLabel47;
     private javax.swing.JLabel jLabel48;
@@ -5182,6 +5186,7 @@ public class guiFrame extends javax.swing.JFrame {
     private javax.swing.JLabel labelHidden2;
     private javax.swing.JLabel labelPlayer2;
     private javax.swing.JLabel labelScoreEmpty;
+    private javax.swing.JLabel labelTurn;
     private javax.swing.JList listHorizontal;
     private javax.swing.JList listVertical;
     private javax.swing.JTextField textScore;

@@ -33,6 +33,8 @@ public class Transfer {
     
     public boolean isPaused;
     
+    public JLabel lTurn;
+    
     protected Transfer() {
       // Exists only to defeat instantiation.
     }

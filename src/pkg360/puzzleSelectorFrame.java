@@ -141,11 +141,22 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
 
     private void buttonStartGameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonStartGameActionPerformed
         //TODO add another login spawn for 2-player
-        //try {
-        
+        //TODO fix UserData reset check
         UserData d = UserData.getInstance();
         SaveData s = SaveData.getInstance();
         Transfer t = Transfer.getInstance();
+        
+        { //Reset block
+            d.uBoardSize = -1;
+            d.uBoard_.blank();
+            d.uDifficulty = -1;
+            d.uHints = null;
+            d.uNumPlayers = -1;
+            d.uSaveName = null;
+            
+            t.scoreContain.setText("0.0");
+            t.timerContain.setText("0");
+        }
         
         if( listSelect.getSelectedIndex() == 0 ) {
             if( listDifficulty.getSelectedIndex() != -1 &&
@@ -159,6 +170,7 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
                     t.scoreExtraContain.setVisible(true);
                     t.lp2l.setVisible(true);
                     t.textScorep1.setVisible(true);
+                    t.lTurn.setVisible(true);
                 }
                 
                 InputTest it = new InputTest();
@@ -287,10 +299,6 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
         Main.startTimer();
         
         this.setVisible(false);
-        //}
-        //catch(Exception e) {
-        //    System.out.println("Exceptione is ="+e.getMessage());
-        //}
     }//GEN-LAST:event_buttonStartGameActionPerformed
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
