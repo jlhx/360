@@ -725,6 +725,7 @@ public class guiFrame extends javax.swing.JFrame {
         buttonNewGame = new javax.swing.JButton();
         buttonViewStats = new javax.swing.JButton();
         buttonQUIT = new javax.swing.JButton();
+        labelError = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -4272,6 +4273,8 @@ public class guiFrame extends javax.swing.JFrame {
             }
         });
 
+        labelError.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -4294,6 +4297,8 @@ public class guiFrame extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(buttonQUIT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(buttonQuitAndSave, javax.swing.GroupLayout.DEFAULT_SIZE, 113, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(labelError, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addContainerGap())
                     .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 470, Short.MAX_VALUE)))
         );
@@ -4306,15 +4311,18 @@ public class guiFrame extends javax.swing.JFrame {
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                     .addComponent(jPanel227, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(buttonSaveGame)
-                    .addComponent(buttonScoreGame)
-                    .addComponent(buttonQuitAndSave))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(buttonNewGame)
-                    .addComponent(buttonViewStats)
-                    .addComponent(buttonQUIT))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(buttonSaveGame)
+                            .addComponent(buttonScoreGame)
+                            .addComponent(buttonQuitAndSave))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(buttonNewGame)
+                            .addComponent(buttonViewStats)
+                            .addComponent(buttonQUIT)))
+                    .addComponent(labelError, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -4325,8 +4333,13 @@ public class guiFrame extends javax.swing.JFrame {
         UserData d = UserData.getInstance();
         Transfer t = Transfer.getInstance();
         if( d.uName != null ) {
-            Main.save();
-            Main.cancelTimer();
+            if(d.uNumPlayers == 1) {
+                Main.save();
+                Main.cancelTimer();
+            }
+            else{
+                this.labelError.setText("Save Disabled");
+            }
         }
         else {
             t.tLF.toFront();
@@ -4636,9 +4649,17 @@ public class guiFrame extends javax.swing.JFrame {
     private void buttonQuitAndSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonQuitAndSaveActionPerformed
         UserData d = UserData.getInstance();
         if( d.uName != null ) {
-            Main.save();
+            if( d.uNumPlayers == 1 ) {
+                Main.save();
+                System.exit(0);
+            }
+            else {
+                this.labelError.setText("Save Disabled");
+            }
         }
-        System.exit(0);
+        else {
+            this.labelError.setText("Save Error");
+        }
     }//GEN-LAST:event_buttonQuitAndSaveActionPerformed
 
     private void listVerticalMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_listVerticalMouseReleased
@@ -5409,6 +5430,7 @@ public class guiFrame extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel99;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JLabel labelError;
     private javax.swing.JLabel labelHidden1;
     private javax.swing.JLabel labelHidden2;
     private javax.swing.JLabel labelPlayer2;
