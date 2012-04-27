@@ -4326,6 +4326,7 @@ public class guiFrame extends javax.swing.JFrame {
         Transfer t = Transfer.getInstance();
         if( d.uName != null ) {
             Main.save();
+            Main.cancelTimer();
         }
         else {
             t.tLF.toFront();
@@ -4355,8 +4356,6 @@ public class guiFrame extends javax.swing.JFrame {
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         //My collecting all the board elements into an array
-        //TODO change the hidden fields to actual hide if 1 player.
-        //  on new game make visible
         JLabel[][][] my_jlabelHolder = {
             {
                 {jLabel1, jLabel2}, {jLabel3, jLabel4}, {jLabel5, jLabel6}, 
@@ -4530,7 +4529,9 @@ public class guiFrame extends javax.swing.JFrame {
         
         t.scoreExtraContain = this.labelHidden1;
         t.lp2l = this.labelHidden2;
+        t.lp1l = this.labelPlayer2;
         t.textScorep1 = this.textScore1;
+        
         t.scoreExtraContain.setVisible(false);
         t.lp2l.setVisible(false);
         t.textScorep1.setEditable(false);
@@ -4543,14 +4544,12 @@ public class guiFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_formWindowOpened
 
     private void buttonScoreGameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonScoreGameActionPerformed
-        // TODO fix score
-        // TODO on score after save reset d
         UserData d = UserData.getInstance();
         Transfer t = Transfer.getInstance();
         Gson gson = new Gson();
         String line;
         if( d.uName != null ) {
-            if( d.uBoard_.bScore == null ) {
+            if( d.uBoard_.p1Score == null ) {
                 //Only happens on score with no game selected
                 if( d.uHints != null ) {
                     double tmp = 0.0;
@@ -4559,7 +4558,7 @@ public class guiFrame extends javax.swing.JFrame {
                             tmp += 10;
                         }
                     }
-                    d.uBoard_.bScore = new Score(tmp, d.uBoard_.time);
+                    d.uBoard_.p1Score = new Score(tmp, d.uBoard_.time);
                 }
                 else {
                     playerStatsFrame psf = new playerStatsFrame();
@@ -4581,12 +4580,12 @@ public class guiFrame extends javax.swing.JFrame {
                     System.out.println(" to -> "+tmp);
                 }
                 else{
-                    tmp = d.uBoard_.bScore.uScore;
+                    tmp = d.uBoard_.p1Score.uScore;
                 }
-                d.uBoard_.bScore.uScore = (double)(((int)(tmp*1000))/1000);
-                System.out.println("buttonScore: "+d.uBoard_.bScore.uScore);
-                if( d.uBoard_.bScore.endtime != d.uBoard_.time ) {
-                    d.uBoard_.bScore.endtime = d.uBoard_.time;
+                d.uBoard_.p1Score.uScore = (double)(((int)(tmp*1000))/1000);
+                System.out.println("buttonScore: "+d.uBoard_.p1Score.uScore);
+                if( d.uBoard_.p1Score.endtime != d.uBoard_.time ) {
+                    d.uBoard_.p1Score.endtime = d.uBoard_.time;
                 }
                 try {
                     File f = new File("scores.txt");
@@ -4608,7 +4607,7 @@ public class guiFrame extends javax.swing.JFrame {
                     else {
                         scoreList = Main.expand(scoreList, scoreList.length+1);
                     }
-                    scoreList[scoreList.length-1] = d.uBoard_.bScore;
+                    scoreList[scoreList.length-1] = d.uBoard_.p1Score;
 
                     PrintWriter out = new PrintWriter(
                         new FileWriter("scores.txt"));
@@ -4622,7 +4621,7 @@ public class guiFrame extends javax.swing.JFrame {
                     System.out.println("Exceptione is ="+e.getMessage());
                 }
                 //Save has finished
-                textScore.setText(""+d.uBoard_.bScore.uScore);
+                textScore.setText(""+d.uBoard_.p1Score.uScore);
                 Main.cancelTimer();
             }
         }

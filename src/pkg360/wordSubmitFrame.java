@@ -116,20 +116,66 @@ public class wordSubmitFrame extends javax.swing.JFrame {
         }
         if( d.uHints != null ) {
             int i;
+            // Find the currently selected hint among the list
             for ( i = 0; i < d.uHints.length; i++) {
                 if( d.uHints[i].compareTo(tmp) == 0 ) {
                     d.uHints[i].guess = word;
-                    //TODO check actual scores for med/hard
-                    if( d.uDifficulty == 3 ) {
-                        //Hard difficulty removes points on wrong word.
-                        if( d.uHints[i].guess.compareTo(d.uHints[i].answer) != 0 ) {
-                            d.uBoard_.bScore.uScore--;
+                    if(d.uNumPlayers == 1) {
+                        if( d.uDifficulty == 3 ) {
+                            //Hard difficulty removes points on wrong word.
+                            if( d.uHints[i].guess.compareTo(d.uHints[i].answer) != 0 ) {
+                                d.uBoard_.p1Score.uScore--;
+                            }
+                        }
+                        if( d.uHints[i].guess.compareTo(d.uHints[i].answer) == 0 ) {
+                            d.uBoard_.p1Score.uScore += 10;
+                        }
+                        t.scoreContain.setText(""+d.uBoard_.p1Score.uScore);
+                    }
+                    else if(d.uNumPlayers == 2) {
+                        if(t.turn == 1) {
+                            if( d.uDifficulty == 3 ) {
+                                //Hard difficulty removes points on wrong word.
+                                if( d.uHints[i].guess.compareTo(d.uHints[i].answer) != 0 ) {
+                                    d.uBoard_.p1Score.uScore--;
+                                }
+                            }
+                            if( d.uHints[i].guess.compareTo(d.uHints[i].answer) == 0 ) {
+                                d.uBoard_.p1Score.uScore += 10;
+                            }
+                            t.scoreContain.setText(""+d.uBoard_.p1Score.uScore);
+                            
+                            t.horizontalContain.setVisible(true);
+                            t.verticalContain.setVisible(false);
+                            
+                            t.turn = 2;
+                            t.lTurn.setText("Turn: Player 2");
+                        }
+                        else if(t.turn == 2) {
+                            if( d.uDifficulty == 3 ) {
+                                //Hard difficulty removes points on wrong word.
+                                if( d.uHints[i].guess.compareTo(d.uHints[i].answer) != 0 ) {
+                                    d.uBoard_.p2Score.uScore--;
+                                }
+                            }
+                            if( d.uHints[i].guess.compareTo(d.uHints[i].answer) == 0 ) {
+                                d.uBoard_.p2Score.uScore += 10;
+                            }
+                            t.textScorep1.setText(""+d.uBoard_.p2Score.uScore);
+                            
+                            t.horizontalContain.setVisible(false);
+                            t.verticalContain.setVisible(true);
+                            
+                            t.turn = 1;
+                            t.lTurn.setText("Turn: Player 1");
+                        }
+                        else{
+                            System.out.println("Who are you? How did you get in my house?");
                         }
                     }
-                    if( d.uHints[i].guess.compareTo(d.uHints[i].answer) == 0 ) {
-                        d.uBoard_.bScore.uScore += 10;
+                    else{
+                        System.out.println("What the fing what?");
                     }
-                    t.scoreContain.setText(""+d.uBoard_.bScore.uScore);
                     break;
                 }
             }

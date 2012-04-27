@@ -8,7 +8,6 @@ import javax.swing.DefaultListModel;
  * @author Caleb Morris
  */
 public class puzzleSelectorFrame extends javax.swing.JFrame {
-    //TODO (put this somewhere specific) reset userdata on new puzzle select
     /**
      * Creates new form puzzleSelectorFrame
      */
@@ -141,7 +140,6 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
 
     private void buttonStartGameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonStartGameActionPerformed
         //TODO add another login spawn for 2-player
-        //TODO fix UserData reset check
         UserData d = UserData.getInstance();
         SaveData s = SaveData.getInstance();
         Transfer t = Transfer.getInstance();
@@ -149,6 +147,9 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
         { //Reset block
             d.uBoardSize = -1;
             d.uBoard_.blank();
+            d.uBoard_.p1Score = null;
+            d.uBoard_.p2Score = null;
+            d.uBoard_.time = 0;
             d.uDifficulty = -1;
             d.uHints = null;
             d.uNumPlayers = -1;
@@ -164,13 +165,19 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
                     listSelect.getSelectedIndex() != -1) {
                 d.uDifficulty = listDifficulty.getSelectedIndex()+1;
                 d.uNumPlayers = listNumbPlayers.getSelectedIndex()+1;
-                d.uBoard_.bScore = new Score(0.0, -1);
+                d.uBoard_.p1Score = new Score(0.0, -1);
                 
                 if( d.uNumPlayers == 2 ) {
                     t.scoreExtraContain.setVisible(true);
                     t.lp2l.setVisible(true);
                     t.textScorep1.setVisible(true);
                     t.lTurn.setVisible(true);
+                    t.textScorep1.setText("0.0");
+                    
+                    d.uBoard_.p2Score = new Score(0.0, -1);
+                    
+                    t.turn = 1;
+                    t.horizontalContain.setVisible(false);
                 }
                 
                 InputTest it = new InputTest();
@@ -305,13 +312,11 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
         UserData d = UserData.getInstance();
         SaveData s = SaveData.getInstance();
         Vector<UserData> v = new Vector<UserData>();
-        //TODO low priority
-        // Bug: user.b accessing user.cd saves
+        //TODO when saving and starting without closes, names are wrong for saves
         if( s.userSaves != null ) {
             System.out.println("reading old saves");
             for (int i = 0; i < s.userSaves.length; i++) {
                 if( s.userSaves[i].uName.compareTo(d.uName) == 0 ) {
-                    System.out.println("currently in "+d.uName);
                     v.add(s.userSaves[i]);
                 }
             }

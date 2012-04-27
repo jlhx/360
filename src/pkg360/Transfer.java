@@ -1,7 +1,6 @@
 package pkg360;
 
 import java.util.Timer;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JPanel;
@@ -29,9 +28,12 @@ public class Transfer {
     
     public JLabel scoreExtraContain;
     public JLabel lp2l;
+    public JLabel lp1l;
     public JTextField textScorep1;
     
     public boolean isPaused;
+    public boolean isSaved;
+    public int turn;
     
     public JLabel lTurn;
     

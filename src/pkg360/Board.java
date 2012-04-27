@@ -10,7 +10,8 @@ import javax.swing.JTextField;
  */
 public class Board {
     public Piece[][] b;
-    public Score bScore;
+    public Score p1Score;
+    public Score p2Score;
     public int time;
     
     public Board() {
