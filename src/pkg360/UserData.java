@@ -4,13 +4,13 @@ package pkg360;
  */
 public class UserData {
    private static UserData instance = null;
-   public String uName;
-   public Board uBoard_;
-   public int uBoardSize;
-   public String uSaveName;
+   public String uName;         // Username. Same as login
+   public Board uBoard_;        // Board info storage. See Board.java
+   public int uBoardSize;       // ([\d]{1,}) | \0 > 1 && < 15
+   public String uSaveName;     // SaveState name : save[\d]{1,}
    public Hint[] uHints;
-   public int uDifficulty; // Easy, Medium, Hard: 1,2,3
-   public int uNumPlayers; // 1,2
+   public int uDifficulty;      // Easy, Medium, Hard: 1,2,3
+   public int uNumPlayers;      // 1,2
    protected UserData() {
       // Exists only to defeat instantiation.
    }
