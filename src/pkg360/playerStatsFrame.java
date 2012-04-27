@@ -150,10 +150,11 @@ public class playerStatsFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
-        // TODO LOW PRIORITY
-        // BUG: infinite scoreboxs
+        // TODO fix to only show the logged user's scores
         String line = "";
         Gson gson = new Gson();
+        UserData d = UserData.getInstance();
+        Score[] scoreList = null;
         try {
             File f = new File("scores.txt");
             if(f.exists()) {
@@ -167,54 +168,70 @@ public class playerStatsFrame extends javax.swing.JFrame {
                 Score[] t = null;
                 line = gson.toJson(t);
             }
-            Score[] scoreList = gson.fromJson(line, Score[].class);
-            if( scoreList != null ) {
-                Format formatter = new SimpleDateFormat("MM/dd/yy HH:mm");
-                //String s = formatter.format(date);
-                //System.out.println(s);
-                
-                Score top = scoreList[0];
-                for (int i = 0; i < scoreList.length; i++) {
+            scoreList = gson.fromJson(line, Score[].class);
+        }
+        catch( Exception e ) {
+            System.out.println("Exceptione is ="+e.getMessage());
+        }
+        if( scoreList != null ) {
+            //Find the 3 most recent games
+            Score[] recentScores = new Score[3];
+            int tmpCount = 0, j = 0;
+            while( tmpCount < 3 && j < scoreList.length ) {
+                if( scoreList[j].sName.compareTo(d.uName) == 0 ) {
+                    recentScores[tmpCount++] = scoreList[j];
+                }
+                j++;
+            }
+            //Count the total number of games for that user
+            int totalGames = 0;
+            for ( int k = 0; k < scoreList.length; ++k) {
+                if( scoreList[k].sName.compareTo(d.uName) == 0 ) {
+                    totalGames++;
+                }
+            }
+            Format formatter = new SimpleDateFormat("MM/dd/yy HH:mm");
+            Score top = recentScores[0];
+            System.out.println(top.toString());
+            for (int i = 0; i < scoreList.length; i++) {
+                if( scoreList[i].sName.compareTo(d.uName) == 0 ) {
                     System.out.println( scoreList[i].sName + " "+ scoreList[i].uScore );
                     if( scoreList[i].uScore > top.uScore )
                         top = scoreList[i];
                 }
-                labelTotalGames.setText(""+scoreList.length);
-                labelTopScore.setText(""+top.uScore);
-                if( scoreList.length >= 3 ) {
-                    labelDate1.setText(formatter.format(scoreList[scoreList.length-3].date));
-                    labelScore1.setText(""+scoreList[scoreList.length-3].uScore);
-                    labelTime1.setText(""+scoreList[scoreList.length-3].endtime);
-                    labelDate2.setText(formatter.format(scoreList[scoreList.length-2].date));
-                    labelScore2.setText(""+scoreList[scoreList.length-2].uScore);
-                    labelTime2.setText(""+scoreList[scoreList.length-2].endtime);
-                    labelDate3.setText(formatter.format(scoreList[scoreList.length-1].date));
-                    labelScore3.setText(""+scoreList[scoreList.length-1].uScore);
-                    labelTime3.setText(""+scoreList[scoreList.length-1].endtime);
-                }
-                else if( scoreList.length == 2 ) {
-                    labelDate1.setText(formatter.format(scoreList[0].date));
-                    labelScore1.setText(""+scoreList[0].uScore);
-                    labelTime1.setText(""+scoreList[0].endtime);
-                    labelDate2.setText(formatter.format(scoreList[1].date));
-                    labelScore2.setText(""+scoreList[1].uScore);
-                    labelTime1.setText(""+scoreList[1].endtime);
-                }
-                else {
-                    labelDate1.setText(formatter.format(scoreList[0].date));
-                    labelScore1.setText(""+scoreList[0].uScore);
-                    labelTime1.setText(""+scoreList[0].endtime);
-                }
             }
-            else{
-                System.out.println("No scores.");
-                labelScore2.setText("You have not played any games.");
-                labelTopScore.setText(""+0);
-                labelTotalGames.setText(""+0);
+            labelTotalGames.setText(""+totalGames);
+            labelTopScore.setText(""+top.uScore);
+            if( tmpCount >= 3 ) {
+                labelDate1.setText(formatter.format(recentScores[2].date));
+                labelScore1.setText(""+recentScores[2].uScore);
+                labelTime1.setText(""+recentScores[2].endtime);
+                labelDate2.setText(formatter.format(recentScores[1].date));
+                labelScore2.setText(""+recentScores[1].uScore);
+                labelTime2.setText(""+recentScores[1].endtime);
+                labelDate3.setText(formatter.format(recentScores[0].date));
+                labelScore3.setText(""+recentScores[0].uScore);
+                labelTime3.setText(""+recentScores[0].endtime);
+            }
+            else if( tmpCount == 2 ) {
+                labelDate1.setText(formatter.format(recentScores[0].date));
+                labelScore1.setText(""+recentScores[0].uScore);
+                labelTime1.setText(""+recentScores[0].endtime);
+                labelDate2.setText(formatter.format(recentScores[1].date));
+                labelScore2.setText(""+recentScores[1].uScore);
+                labelTime1.setText(""+recentScores[1].endtime);
+            }
+            else {
+                labelDate1.setText(formatter.format(recentScores[0].date));
+                labelScore1.setText(""+recentScores[0].uScore);
+                labelTime1.setText(""+recentScores[0].endtime);
             }
         }
-        catch( Exception e ) {
-            System.out.println("Exceptione is ="+e.getMessage());
+        else{
+            System.out.println("No scores.");
+            labelScore2.setText("You have not played any games.");
+            labelTopScore.setText(""+0);
+            labelTotalGames.setText(""+0);
         }
     }//GEN-LAST:event_formWindowOpened
 

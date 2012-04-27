@@ -31,4 +31,9 @@ public class Score implements Comparable<Score>{
             return 0;
         }
     }
+    
+    @Override
+    public String toString() {
+        return "User: " + sName + " Score: " + uScore + " Time: " + endtime;
+    }
 }
