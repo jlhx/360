@@ -124,7 +124,7 @@ public class wordSubmitFrame extends javax.swing.JFrame {
                         if( d.uDifficulty == 3 ) {
                             //Hard difficulty removes points on wrong word.
                             if( d.uHints[i].guess.compareTo(d.uHints[i].answer) != 0 ) {
-                                d.uBoard_.p1Score.uScore--;
+                                d.uBoard_.p1Score.uScore-=5;
                             }
                         }
                         if( d.uHints[i].guess.compareTo(d.uHints[i].answer) == 0 ) {
@@ -137,7 +137,7 @@ public class wordSubmitFrame extends javax.swing.JFrame {
                             if( d.uDifficulty == 3 ) {
                                 //Hard difficulty removes points on wrong word.
                                 if( d.uHints[i].guess.compareTo(d.uHints[i].answer) != 0 ) {
-                                    d.uBoard_.p1Score.uScore--;
+                                    d.uBoard_.p1Score.uScore-=5;
                                 }
                             }
                             if( d.uHints[i].guess.compareTo(d.uHints[i].answer) == 0 ) {
@@ -155,7 +155,7 @@ public class wordSubmitFrame extends javax.swing.JFrame {
                             if( d.uDifficulty == 3 ) {
                                 //Hard difficulty removes points on wrong word.
                                 if( d.uHints[i].guess.compareTo(d.uHints[i].answer) != 0 ) {
-                                    d.uBoard_.p2Score.uScore--;
+                                    d.uBoard_.p2Score.uScore-=5;
                                 }
                             }
                             if( d.uHints[i].guess.compareTo(d.uHints[i].answer) == 0 ) {

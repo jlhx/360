@@ -4625,9 +4625,9 @@ public class guiFrame extends javax.swing.JFrame {
                     Score[] scoreList = gson.fromJson(line, Score[].class);
                     if( scoreList == null ) {
                         if( d.uNumPlayers == 1 )
-                            scoreList = Main.expand(scoreList, 1);
+                            scoreList = new Score[1];
                         else if (d.uNumPlayers == 2)
-                            scoreList = Main.expand(scoreList, 2);
+                            scoreList = new Score[2];
                     }
                     else {
                         if(d.uNumPlayers == 1)
@@ -4637,7 +4637,7 @@ public class guiFrame extends javax.swing.JFrame {
                     }
                     scoreList[scoreList.length-1] = d.uBoard_.p1Score;
                     if( d.uNumPlayers == 2 )
-                        scoreList[scoreList.length-1] = d.uBoard_.p1Score;
+                        scoreList[scoreList.length-2] = d.uBoard_.p2Score;
 
                     PrintWriter out = new PrintWriter(
                         new FileWriter("scores.txt"));

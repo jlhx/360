@@ -218,7 +218,7 @@ public class playerStatsFrame extends javax.swing.JFrame {
                 labelTime1.setText(""+recentScores[0].endtime);
                 labelDate2.setText(formatter.format(recentScores[1].date));
                 labelScore2.setText(""+recentScores[1].uScore);
-                labelTime1.setText(""+recentScores[1].endtime);
+                labelTime2.setText(""+recentScores[1].endtime);
             }
             else {
                 labelDate1.setText(formatter.format(recentScores[0].date));
