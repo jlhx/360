@@ -149,6 +149,7 @@ public class loginFrame extends javax.swing.JFrame {
                         //PW is correct
                         this.setVisible(false);
                         System.out.println("entering new pull");
+                        /*
                         try {
                             File fin = new File("saves.txt");
                             if(fin.exists()) {
@@ -170,6 +171,8 @@ public class loginFrame extends javax.swing.JFrame {
                         SaveData s = SaveData.getInstance();
                         s.userSaves = dataList;
                         System.out.println("exiting new pull");
+                        * 
+                        */
                     }
                     else{
                         //PW Wrong

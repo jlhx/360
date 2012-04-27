@@ -1,6 +1,10 @@
 package pkg360;
 
+import com.google.gson.Gson;
 import java.awt.Color;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.util.Arrays;
 import java.util.Vector;
 import javax.swing.DefaultListModel;
@@ -179,70 +183,6 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
                 d.uDifficulty = listDifficulty.getSelectedIndex()+1;
                 d.uNumPlayers = listNumbPlayers.getSelectedIndex()+1;
                 d.uBoard_.p1Score = new Score(0.0, -1);
-                /*
-                InputTest it = new InputTest();
-                it.main();
-                Vector<Hint> v = it.getHints();
-                if( v != null ) {
-                    d.uHints = (Hint[])it.getHints().toArray(new Hint[it.getHints().size()]);
-                }
-                else {
-                    System.out.println("getHints is returning null");
-                }
-                d.uBoardSize = it.getBoardSize();
-                d.uBoard_.time = 0;        
-                d.uSaveName = "";
-
-                int count = 0;
-                System.out.println(s.userSaves);
-                if( s.userSaves != null ) {
-                    for (int i = 0; i < s.userSaves.length; i++) {
-                        if( s.userSaves[i].uName == d.uName ) {
-                            count++;
-                        }
-                    }
-                }
-                d.uSaveName = "save"+(count + 1);
-
-                Arrays.sort(d.uHints);
-                int i=0;
-                count = 0;
-                while( i < d.uHints.length ) {
-                    if( d.uHints[i].number == 0 ) {
-                        count++;
-                        d.uHints[i].number = (count);
-                    }
-                    if( i < d.uHints.length - 1 ) {
-                        if( d.uHints[i+1].startX == d.uHints[i].startX &&
-                            d.uHints[i+1].startY == d.uHints[i].startY) {
-                                d.uHints[i+1].number = (count);
-                        }
-                    }
-                    //System.out.println(d.uHints[i].hint+" "+d.uHints[i].number);
-                    i++;
-                }
-                DefaultListModel listHorizontal = new DefaultListModel();
-                DefaultListModel listVertical = new DefaultListModel();
-                for (int j = 0; j < d.uHints.length; j++) {
-                    d.uBoard_.b [d.uHints[j].startY][d.uHints[j].startX].numVal = d.uHints[j].number;
-                    t.num       [d.uHints[j].startY][d.uHints[j].startX].setText(""+d.uHints[j].number);
-                    t.contain   [d.uHints[j].startY][d.uHints[j].startX].setBackground(new Color(255,255,255));
-                    if( d.uHints[j].ori == Hint.Orientation.ACROSS ) {
-                        for (int k = 0; k < d.uHints[j].length; k++) {
-                            t.contain[d.uHints[j].startY][k+d.uHints[j].startX].setBackground(new Color(255,255,255));
-                        }
-                        listHorizontal.addElement(d.uHints[j].hint);
-                    }
-                    else {
-                        for (int k = 0; k < d.uHints[j].length; k++) {
-                            t.contain[k+d.uHints[j].startY][d.uHints[j].startX].setBackground(new Color(255,255,255));
-                        }
-                        listVertical.addElement(d.uHints[j].hint);
-                    }
-                }
-                t.horizontalContain.setModel(listHorizontal);
-                t.verticalContain.setModel(listVertical);
-                */
                 Main.setup();
                 Main.startTimer();
         
@@ -344,7 +284,29 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
         UserData d = UserData.getInstance();
         SaveData s = SaveData.getInstance();
         Vector<UserData> v = new Vector<UserData>();
-        //TODO when saving and starting without closes, names are wrong for saves
+        
+        Gson gson = new Gson();
+        String line = "";
+        try {
+            File fin = new File("saves.txt");
+            if(fin.exists()) {
+                BufferedReader reader = 
+                    new BufferedReader( 
+                        new FileReader("saves.txt") );
+                line = reader.readLine();
+            }
+            else {
+                UserData[] tm = {d};
+                line = gson.toJson(tm);
+            }
+        }
+        catch( Exception e ) {
+            System.out.println("Exceptione is ="+e.getMessage());
+        }
+        UserData[] dataList = gson.fromJson(line, UserData[].class);
+        s.userSaves = dataList;
+        System.out.println("exiting new pull");
+        
         if( s.userSaves != null ) {
             System.out.println("reading old saves");
             for (int i = 0; i < s.userSaves.length; i++) {
