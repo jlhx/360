@@ -172,7 +172,7 @@ public class playerStatsFrame extends javax.swing.JFrame {
         catch( Exception e ) {
             System.out.println("Exceptione is ="+e.getMessage());
         }
-        if( scoreList != null ) {
+        if( scoreList != null/* && d.uNumPlayers != 2*/ ) {
             //Find the 3 most recent games
             Score[] recentScores = new Score[3];
             int tmpCount = 0, j = 0;

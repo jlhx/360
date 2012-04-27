@@ -4358,6 +4358,7 @@ public class guiFrame extends javax.swing.JFrame {
     private void buttonNewGameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonNewGameActionPerformed
         UserData d = UserData.getInstance();
         Transfer t = Transfer.getInstance();
+        this.labelError.setText("");
         if( d.uName != null ) {
             puzzleSelectorFrame puzzleSelector = new puzzleSelectorFrame();
             t.psf = puzzleSelector;
@@ -4560,6 +4561,7 @@ public class guiFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_formWindowOpened
 
     private void buttonScoreGameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonScoreGameActionPerformed
+        //TODO 2player score
         UserData d = UserData.getInstance();
         Transfer t = Transfer.getInstance();
         Gson gson = new Gson();
@@ -4582,7 +4584,13 @@ public class guiFrame extends javax.swing.JFrame {
                 }
             }
             else {
-                double tmp = 0.0;
+                double tmp;
+                if(d.uNumPlayers == 1) {
+                    tmp = d.uBoard_.p1Score.uScore;
+                }
+                else {
+                    tmp = d.uBoard_.p1Score.uScore + d.uBoard_.p2Score.uScore;
+                }
                 if(d.uDifficulty == 3) {
                     System.out.print("hard score" + tmp );
                     double sz = d.uHints.length * 20;
@@ -4595,10 +4603,9 @@ public class guiFrame extends javax.swing.JFrame {
                     tmp *= ((sz-d.uBoard_.time) / sz);
                     System.out.println(" to -> "+tmp);
                 }
-                else{
-                    tmp = d.uBoard_.p1Score.uScore;
-                }
                 d.uBoard_.p1Score.uScore = (double)(((int)(tmp*1000))/1000);
+                if( d.uNumPlayers==2 )
+                    d.uBoard_.p2Score.uScore = (double)(((int)(tmp*1000))/1000);
                 System.out.println("buttonScore: "+d.uBoard_.p1Score.uScore);
                 if( d.uBoard_.p1Score.endtime != d.uBoard_.time ) {
                     d.uBoard_.p1Score.endtime = d.uBoard_.time;
@@ -4610,7 +4617,6 @@ public class guiFrame extends javax.swing.JFrame {
                             new BufferedReader( 
                                 new FileReader("scores.txt") );
                         line = reader.readLine();
-                        //System.out.println("^"+line+"^");
                     }
                     else {
                         Score[] tmpScore = null;
@@ -4618,26 +4624,40 @@ public class guiFrame extends javax.swing.JFrame {
                     }
                     Score[] scoreList = gson.fromJson(line, Score[].class);
                     if( scoreList == null ) {
-                        scoreList = Main.expand(scoreList, 1);
+                        if( d.uNumPlayers == 1 )
+                            scoreList = Main.expand(scoreList, 1);
+                        else if (d.uNumPlayers == 2)
+                            scoreList = Main.expand(scoreList, 2);
                     }
                     else {
-                        scoreList = Main.expand(scoreList, scoreList.length+1);
+                        if(d.uNumPlayers == 1)
+                            scoreList = Main.expand(scoreList, scoreList.length+1);
+                        else if(d.uNumPlayers == 2)
+                            scoreList = Main.expand(scoreList, scoreList.length+2);
                     }
                     scoreList[scoreList.length-1] = d.uBoard_.p1Score;
+                    if( d.uNumPlayers == 2 )
+                        scoreList[scoreList.length-1] = d.uBoard_.p1Score;
 
                     PrintWriter out = new PrintWriter(
                         new FileWriter("scores.txt"));
                     out.print( gson.toJson(scoreList) );
                     out.close();
 
-                    playerStatsFrame psf = new playerStatsFrame();
-                    psf.setVisible(true);
+                    if( d.uNumPlayers != 2 ) {
+                        playerStatsFrame psf = new playerStatsFrame();
+                        psf.setVisible(true);
+                    }
+                    else{
+                        this.labelError.setText("Good Game.");
+                    }
                 }
                 catch(Exception e) {
                     System.out.println("Exceptione is ="+e.getMessage());
                 }
                 //Save has finished
                 textScore.setText(""+d.uBoard_.p1Score.uScore);
+                textScore1.setText(""+d.uBoard_.p1Score.uScore);
                 Main.cancelTimer();
             }
         }
