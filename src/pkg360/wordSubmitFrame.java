@@ -66,8 +66,7 @@ public class wordSubmitFrame extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(labelHint, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(buttonCancel)
@@ -75,8 +74,10 @@ public class wordSubmitFrame extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(buttonSubmit)
-                            .addComponent(textAnswer, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(20, Short.MAX_VALUE))
+                            .addComponent(textAnswer, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 29, Short.MAX_VALUE))
+                    .addComponent(labelHint, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -156,14 +157,8 @@ public class wordSubmitFrame extends javax.swing.JFrame {
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         // Write the hint to the given label
-        // TODO fix word length dynamic expansion
         Transfer t = Transfer.getInstance();
-        if( t.current.hint.length() > 24 ){
-            labelHint.setText(t.current.hint.substring(0, 24));
-        }
-        else {
-            labelHint.setText(t.current.hint);
-        }
+        labelHint.setText(t.current.hint);
     }//GEN-LAST:event_formWindowOpened
 
     /**
