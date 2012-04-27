@@ -739,6 +739,7 @@ public class guiFrame extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel2.setText("1");
         jLabel2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel2.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -757,6 +758,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel3.setText("B");
         jPanel3.add(jLabel3, java.awt.BorderLayout.CENTER);
 
+        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel4.setText("2");
         jPanel3.add(jLabel4, java.awt.BorderLayout.NORTH);
 
@@ -769,6 +771,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel5.setText("A");
         jPanel4.add(jLabel5, java.awt.BorderLayout.CENTER);
 
+        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel6.setText("1");
         jLabel6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel6.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -783,6 +786,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel7.setText("A");
         jPanel5.add(jLabel7, java.awt.BorderLayout.CENTER);
 
+        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel8.setText("4");
         jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel8.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -797,6 +801,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel9.setText("A");
         jPanel6.add(jLabel9, java.awt.BorderLayout.CENTER);
 
+        jLabel10.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel10.setText("1");
         jLabel10.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel10.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -811,6 +816,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel11.setText("A");
         jPanel7.add(jLabel11, java.awt.BorderLayout.CENTER);
 
+        jLabel12.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel12.setText("6");
         jLabel12.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel12.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -825,6 +831,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel13.setText("A");
         jPanel8.add(jLabel13, java.awt.BorderLayout.CENTER);
 
+        jLabel14.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel14.setText("1");
         jLabel14.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel14.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -839,6 +846,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel15.setText("A");
         jPanel9.add(jLabel15, java.awt.BorderLayout.CENTER);
 
+        jLabel16.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel16.setText("8");
         jLabel16.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel16.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -853,6 +861,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel17.setText("A");
         jPanel10.add(jLabel17, java.awt.BorderLayout.CENTER);
 
+        jLabel18.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel18.setText("1");
         jLabel18.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel18.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -867,6 +876,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel19.setText("A");
         jPanel11.add(jLabel19, java.awt.BorderLayout.CENTER);
 
+        jLabel20.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel20.setText("10");
         jLabel20.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel20.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -881,6 +891,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel21.setText("A");
         jPanel12.add(jLabel21, java.awt.BorderLayout.CENTER);
 
+        jLabel22.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel22.setText("1");
         jLabel22.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel22.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -895,6 +906,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel23.setText("A");
         jPanel13.add(jLabel23, java.awt.BorderLayout.CENTER);
 
+        jLabel24.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel24.setText("12");
         jLabel24.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel24.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -909,6 +921,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel25.setText("A");
         jPanel14.add(jLabel25, java.awt.BorderLayout.CENTER);
 
+        jLabel26.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel26.setText("1");
         jLabel26.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel26.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -923,6 +936,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel27.setText("A");
         jPanel15.add(jLabel27, java.awt.BorderLayout.CENTER);
 
+        jLabel28.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel28.setText("14");
         jLabel28.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel28.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -937,6 +951,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel29.setText("A");
         jPanel16.add(jLabel29, java.awt.BorderLayout.CENTER);
 
+        jLabel30.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel30.setText("15");
         jLabel30.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel30.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -951,6 +966,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel31.setText("A");
         jPanel17.add(jLabel31, java.awt.BorderLayout.CENTER);
 
+        jLabel32.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel32.setText("2");
         jLabel32.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel32.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -965,6 +981,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel33.setText("A");
         jPanel18.add(jLabel33, java.awt.BorderLayout.CENTER);
 
+        jLabel34.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel34.setText("1");
         jLabel34.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel34.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -979,6 +996,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel35.setText("A");
         jPanel19.add(jLabel35, java.awt.BorderLayout.CENTER);
 
+        jLabel36.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel36.setText("1");
         jLabel36.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel36.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -993,6 +1011,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel37.setText("A");
         jPanel20.add(jLabel37, java.awt.BorderLayout.CENTER);
 
+        jLabel38.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel38.setText("1");
         jLabel38.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel38.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1007,6 +1026,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel39.setText("A");
         jPanel21.add(jLabel39, java.awt.BorderLayout.CENTER);
 
+        jLabel40.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel40.setText("1");
         jLabel40.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel40.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1021,6 +1041,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel41.setText("A");
         jPanel22.add(jLabel41, java.awt.BorderLayout.CENTER);
 
+        jLabel42.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel42.setText("1");
         jLabel42.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel42.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1035,6 +1056,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel43.setText("A");
         jPanel23.add(jLabel43, java.awt.BorderLayout.CENTER);
 
+        jLabel44.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel44.setText("1");
         jLabel44.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel44.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1049,6 +1071,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel45.setText("A");
         jPanel24.add(jLabel45, java.awt.BorderLayout.CENTER);
 
+        jLabel46.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel46.setText("1");
         jLabel46.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel46.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1063,6 +1086,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel47.setText("A");
         jPanel25.add(jLabel47, java.awt.BorderLayout.CENTER);
 
+        jLabel48.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel48.setText("1");
         jLabel48.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel48.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1077,6 +1101,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel49.setText("A");
         jPanel26.add(jLabel49, java.awt.BorderLayout.CENTER);
 
+        jLabel50.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel50.setText("1");
         jLabel50.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel50.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1091,6 +1116,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel51.setText("A");
         jPanel27.add(jLabel51, java.awt.BorderLayout.CENTER);
 
+        jLabel52.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel52.setText("1");
         jLabel52.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel52.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1105,6 +1131,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel53.setText("A");
         jPanel28.add(jLabel53, java.awt.BorderLayout.CENTER);
 
+        jLabel54.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel54.setText("1");
         jLabel54.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel54.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1119,6 +1146,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel55.setText("A");
         jPanel29.add(jLabel55, java.awt.BorderLayout.CENTER);
 
+        jLabel56.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel56.setText("1");
         jLabel56.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel56.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1133,6 +1161,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel57.setText("A");
         jPanel30.add(jLabel57, java.awt.BorderLayout.CENTER);
 
+        jLabel58.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel58.setText("1");
         jLabel58.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel58.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1147,6 +1176,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel59.setText("A");
         jPanel31.add(jLabel59, java.awt.BorderLayout.CENTER);
 
+        jLabel60.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel60.setText("1");
         jLabel60.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel60.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1161,6 +1191,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel61.setText("A");
         jPanel32.add(jLabel61, java.awt.BorderLayout.CENTER);
 
+        jLabel62.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel62.setText("3");
         jLabel62.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel62.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1175,6 +1206,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel63.setText("A");
         jPanel33.add(jLabel63, java.awt.BorderLayout.CENTER);
 
+        jLabel64.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel64.setText("1");
         jLabel64.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel64.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1189,6 +1221,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel65.setText("A");
         jPanel34.add(jLabel65, java.awt.BorderLayout.CENTER);
 
+        jLabel66.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel66.setText("1");
         jLabel66.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel66.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1203,6 +1236,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel67.setText("A");
         jPanel35.add(jLabel67, java.awt.BorderLayout.CENTER);
 
+        jLabel68.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel68.setText("1");
         jLabel68.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel68.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1217,6 +1251,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel69.setText("A");
         jPanel36.add(jLabel69, java.awt.BorderLayout.CENTER);
 
+        jLabel70.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel70.setText("1");
         jLabel70.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel70.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1231,6 +1266,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel71.setText("A");
         jPanel37.add(jLabel71, java.awt.BorderLayout.CENTER);
 
+        jLabel72.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel72.setText("1");
         jLabel72.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel72.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1245,6 +1281,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel73.setText("A");
         jPanel38.add(jLabel73, java.awt.BorderLayout.CENTER);
 
+        jLabel74.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel74.setText("1");
         jLabel74.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel74.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1259,6 +1296,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel75.setText("A");
         jPanel39.add(jLabel75, java.awt.BorderLayout.CENTER);
 
+        jLabel76.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel76.setText("1");
         jLabel76.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel76.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1273,6 +1311,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel77.setText("A");
         jPanel40.add(jLabel77, java.awt.BorderLayout.CENTER);
 
+        jLabel78.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel78.setText("1");
         jLabel78.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel78.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1287,6 +1326,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel79.setText("A");
         jPanel41.add(jLabel79, java.awt.BorderLayout.CENTER);
 
+        jLabel80.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel80.setText("1");
         jLabel80.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel80.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1301,6 +1341,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel81.setText("A");
         jPanel42.add(jLabel81, java.awt.BorderLayout.CENTER);
 
+        jLabel82.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel82.setText("1");
         jLabel82.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel82.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1315,6 +1356,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel83.setText("A");
         jPanel43.add(jLabel83, java.awt.BorderLayout.CENTER);
 
+        jLabel84.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel84.setText("1");
         jLabel84.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel84.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1329,6 +1371,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel85.setText("A");
         jPanel44.add(jLabel85, java.awt.BorderLayout.CENTER);
 
+        jLabel86.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel86.setText("1");
         jLabel86.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel86.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1343,6 +1386,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel87.setText("A");
         jPanel45.add(jLabel87, java.awt.BorderLayout.CENTER);
 
+        jLabel88.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel88.setText("1");
         jLabel88.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel88.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1357,6 +1401,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel89.setText("A");
         jPanel46.add(jLabel89, java.awt.BorderLayout.CENTER);
 
+        jLabel90.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel90.setText("1");
         jLabel90.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel90.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1371,6 +1416,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel91.setText("A");
         jPanel47.add(jLabel91, java.awt.BorderLayout.CENTER);
 
+        jLabel92.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel92.setText("4");
         jLabel92.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel92.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1385,6 +1431,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel93.setText("A");
         jPanel48.add(jLabel93, java.awt.BorderLayout.CENTER);
 
+        jLabel94.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel94.setText("1");
         jLabel94.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel94.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1399,6 +1446,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel97.setText("A");
         jPanel49.add(jLabel97, java.awt.BorderLayout.CENTER);
 
+        jLabel98.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel98.setText("1");
         jLabel98.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel98.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1413,6 +1461,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel95.setText("A");
         jPanel50.add(jLabel95, java.awt.BorderLayout.CENTER);
 
+        jLabel96.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel96.setText("1");
         jLabel96.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel96.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1427,6 +1476,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel99.setText("A");
         jPanel51.add(jLabel99, java.awt.BorderLayout.CENTER);
 
+        jLabel100.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel100.setText("1");
         jLabel100.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel100.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1441,6 +1491,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel101.setText("A");
         jPanel52.add(jLabel101, java.awt.BorderLayout.CENTER);
 
+        jLabel102.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel102.setText("1");
         jLabel102.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel102.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1455,6 +1506,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel103.setText("A");
         jPanel53.add(jLabel103, java.awt.BorderLayout.CENTER);
 
+        jLabel104.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel104.setText("1");
         jLabel104.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel104.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1469,6 +1521,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel105.setText("A");
         jPanel54.add(jLabel105, java.awt.BorderLayout.CENTER);
 
+        jLabel106.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel106.setText("1");
         jLabel106.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel106.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1483,6 +1536,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel107.setText("A");
         jPanel55.add(jLabel107, java.awt.BorderLayout.CENTER);
 
+        jLabel108.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel108.setText("1");
         jLabel108.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel108.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1497,6 +1551,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel109.setText("A");
         jPanel56.add(jLabel109, java.awt.BorderLayout.CENTER);
 
+        jLabel110.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel110.setText("1");
         jLabel110.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel110.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1511,6 +1566,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel111.setText("A");
         jPanel57.add(jLabel111, java.awt.BorderLayout.CENTER);
 
+        jLabel112.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel112.setText("1");
         jLabel112.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel112.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1525,6 +1581,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel113.setText("A");
         jPanel58.add(jLabel113, java.awt.BorderLayout.CENTER);
 
+        jLabel114.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel114.setText("1");
         jLabel114.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel114.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1539,6 +1596,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel115.setText("A");
         jPanel59.add(jLabel115, java.awt.BorderLayout.CENTER);
 
+        jLabel116.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel116.setText("1");
         jLabel116.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel116.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1553,6 +1611,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel117.setText("A");
         jPanel60.add(jLabel117, java.awt.BorderLayout.CENTER);
 
+        jLabel118.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel118.setText("1");
         jLabel118.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel118.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1567,6 +1626,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel119.setText("A");
         jPanel61.add(jLabel119, java.awt.BorderLayout.CENTER);
 
+        jLabel120.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel120.setText("1");
         jLabel120.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel120.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1581,6 +1641,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel121.setText("A");
         jPanel62.add(jLabel121, java.awt.BorderLayout.CENTER);
 
+        jLabel122.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel122.setText("5");
         jLabel122.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel122.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1595,6 +1656,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel123.setText("A");
         jPanel63.add(jLabel123, java.awt.BorderLayout.CENTER);
 
+        jLabel124.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel124.setText("1");
         jLabel124.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel124.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1609,6 +1671,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel125.setText("A");
         jPanel64.add(jLabel125, java.awt.BorderLayout.CENTER);
 
+        jLabel126.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel126.setText("1");
         jLabel126.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel126.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1623,6 +1686,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel127.setText("A");
         jPanel65.add(jLabel127, java.awt.BorderLayout.CENTER);
 
+        jLabel128.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel128.setText("1");
         jLabel128.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel128.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1637,6 +1701,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel129.setText("A");
         jPanel66.add(jLabel129, java.awt.BorderLayout.CENTER);
 
+        jLabel130.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel130.setText("1");
         jLabel130.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel130.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1651,6 +1716,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel131.setText("A");
         jPanel67.add(jLabel131, java.awt.BorderLayout.CENTER);
 
+        jLabel132.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel132.setText("1");
         jLabel132.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel132.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1665,6 +1731,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel133.setText("A");
         jPanel68.add(jLabel133, java.awt.BorderLayout.CENTER);
 
+        jLabel134.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel134.setText("1");
         jLabel134.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel134.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1679,6 +1746,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel135.setText("A");
         jPanel69.add(jLabel135, java.awt.BorderLayout.CENTER);
 
+        jLabel136.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel136.setText("1");
         jLabel136.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel136.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1693,6 +1761,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel137.setText("A");
         jPanel70.add(jLabel137, java.awt.BorderLayout.CENTER);
 
+        jLabel138.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel138.setText("1");
         jLabel138.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel138.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1707,6 +1776,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel139.setText("A");
         jPanel71.add(jLabel139, java.awt.BorderLayout.CENTER);
 
+        jLabel140.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel140.setText("1");
         jLabel140.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel140.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1721,6 +1791,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel141.setText("A");
         jPanel72.add(jLabel141, java.awt.BorderLayout.CENTER);
 
+        jLabel142.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel142.setText("1");
         jLabel142.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel142.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1735,6 +1806,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel143.setText("A");
         jPanel73.add(jLabel143, java.awt.BorderLayout.CENTER);
 
+        jLabel144.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel144.setText("1");
         jLabel144.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel144.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1749,6 +1821,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel145.setText("A");
         jPanel74.add(jLabel145, java.awt.BorderLayout.CENTER);
 
+        jLabel146.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel146.setText("1");
         jLabel146.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel146.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1763,6 +1836,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel147.setText("A");
         jPanel75.add(jLabel147, java.awt.BorderLayout.CENTER);
 
+        jLabel148.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel148.setText("1");
         jLabel148.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel148.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1777,6 +1851,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel149.setText("A");
         jPanel76.add(jLabel149, java.awt.BorderLayout.CENTER);
 
+        jLabel150.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel150.setText("1");
         jLabel150.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel150.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1791,6 +1866,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel151.setText("A");
         jPanel77.add(jLabel151, java.awt.BorderLayout.CENTER);
 
+        jLabel152.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel152.setText("6");
         jLabel152.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel152.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1805,6 +1881,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel153.setText("A");
         jPanel78.add(jLabel153, java.awt.BorderLayout.CENTER);
 
+        jLabel154.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel154.setText("1");
         jLabel154.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel154.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1819,6 +1896,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel155.setText("A");
         jPanel79.add(jLabel155, java.awt.BorderLayout.CENTER);
 
+        jLabel156.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel156.setText("1");
         jLabel156.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel156.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1833,6 +1911,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel157.setText("A");
         jPanel80.add(jLabel157, java.awt.BorderLayout.CENTER);
 
+        jLabel158.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel158.setText("1");
         jLabel158.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel158.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1847,6 +1926,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel159.setText("A");
         jPanel81.add(jLabel159, java.awt.BorderLayout.CENTER);
 
+        jLabel160.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel160.setText("1");
         jLabel160.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel160.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1861,6 +1941,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel161.setText("A");
         jPanel82.add(jLabel161, java.awt.BorderLayout.CENTER);
 
+        jLabel162.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel162.setText("1");
         jLabel162.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel162.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1875,6 +1956,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel163.setText("A");
         jPanel83.add(jLabel163, java.awt.BorderLayout.CENTER);
 
+        jLabel164.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel164.setText("1");
         jLabel164.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel164.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1889,6 +1971,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel165.setText("A");
         jPanel84.add(jLabel165, java.awt.BorderLayout.CENTER);
 
+        jLabel166.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel166.setText("1");
         jLabel166.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel166.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1903,6 +1986,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel167.setText("A");
         jPanel85.add(jLabel167, java.awt.BorderLayout.CENTER);
 
+        jLabel168.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel168.setText("1");
         jLabel168.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel168.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1917,6 +2001,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel169.setText("A");
         jPanel86.add(jLabel169, java.awt.BorderLayout.CENTER);
 
+        jLabel170.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel170.setText("1");
         jLabel170.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel170.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1931,6 +2016,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel171.setText("A");
         jPanel87.add(jLabel171, java.awt.BorderLayout.CENTER);
 
+        jLabel172.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel172.setText("1");
         jLabel172.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel172.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1945,6 +2031,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel173.setText("A");
         jPanel88.add(jLabel173, java.awt.BorderLayout.CENTER);
 
+        jLabel174.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel174.setText("1");
         jLabel174.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel174.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1959,6 +2046,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel175.setText("A");
         jPanel89.add(jLabel175, java.awt.BorderLayout.CENTER);
 
+        jLabel176.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel176.setText("1");
         jLabel176.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel176.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1973,6 +2061,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel177.setText("A");
         jPanel90.add(jLabel177, java.awt.BorderLayout.CENTER);
 
+        jLabel178.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel178.setText("1");
         jLabel178.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel178.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -1987,6 +2076,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel179.setText("A");
         jPanel91.add(jLabel179, java.awt.BorderLayout.CENTER);
 
+        jLabel180.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel180.setText("1");
         jLabel180.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel180.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2001,6 +2091,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel181.setText("A");
         jPanel92.add(jLabel181, java.awt.BorderLayout.CENTER);
 
+        jLabel182.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel182.setText("1");
         jLabel182.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel182.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2015,6 +2106,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel183.setText("A");
         jPanel93.add(jLabel183, java.awt.BorderLayout.CENTER);
 
+        jLabel184.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel184.setText("1");
         jLabel184.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel184.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2029,6 +2121,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel185.setText("A");
         jPanel94.add(jLabel185, java.awt.BorderLayout.CENTER);
 
+        jLabel186.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel186.setText("1");
         jLabel186.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel186.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2043,6 +2136,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel187.setText("A");
         jPanel95.add(jLabel187, java.awt.BorderLayout.CENTER);
 
+        jLabel188.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel188.setText("1");
         jLabel188.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel188.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2057,6 +2151,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel379.setText("A");
         jPanel96.add(jLabel379, java.awt.BorderLayout.CENTER);
 
+        jLabel380.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel380.setText("1");
         jLabel380.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel380.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2071,6 +2166,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel189.setText("A");
         jPanel97.add(jLabel189, java.awt.BorderLayout.CENTER);
 
+        jLabel190.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel190.setText("1");
         jLabel190.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel190.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2085,6 +2181,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel191.setText("A");
         jPanel98.add(jLabel191, java.awt.BorderLayout.CENTER);
 
+        jLabel192.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel192.setText("1");
         jLabel192.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel192.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2099,6 +2196,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel193.setText("A");
         jPanel99.add(jLabel193, java.awt.BorderLayout.CENTER);
 
+        jLabel194.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel194.setText("1");
         jLabel194.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel194.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2113,6 +2211,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel383.setText("A");
         jPanel100.add(jLabel383, java.awt.BorderLayout.CENTER);
 
+        jLabel384.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel384.setText("1");
         jLabel384.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel384.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2127,6 +2226,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel195.setText("A");
         jPanel101.add(jLabel195, java.awt.BorderLayout.CENTER);
 
+        jLabel196.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel196.setText("1");
         jLabel196.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel196.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2141,6 +2241,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel385.setText("A");
         jPanel102.add(jLabel385, java.awt.BorderLayout.CENTER);
 
+        jLabel386.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel386.setText("1");
         jLabel386.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel386.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2155,6 +2256,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel197.setText("A");
         jPanel103.add(jLabel197, java.awt.BorderLayout.CENTER);
 
+        jLabel198.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel198.setText("1");
         jLabel198.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel198.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2169,6 +2271,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel387.setText("A");
         jPanel104.add(jLabel387, java.awt.BorderLayout.CENTER);
 
+        jLabel388.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel388.setText("1");
         jLabel388.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel388.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2183,6 +2286,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel199.setText("A");
         jPanel105.add(jLabel199, java.awt.BorderLayout.CENTER);
 
+        jLabel200.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel200.setText("1");
         jLabel200.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel200.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2197,6 +2301,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel201.setText("A");
         jPanel106.add(jLabel201, java.awt.BorderLayout.CENTER);
 
+        jLabel202.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel202.setText("1");
         jLabel202.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel202.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2211,6 +2316,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel203.setText("A");
         jPanel107.add(jLabel203, java.awt.BorderLayout.CENTER);
 
+        jLabel204.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel204.setText("8");
         jLabel204.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel204.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2225,6 +2331,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel375.setText("A");
         jPanel108.add(jLabel375, java.awt.BorderLayout.CENTER);
 
+        jLabel376.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel376.setText("1");
         jLabel376.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel376.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2239,6 +2346,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel205.setText("A");
         jPanel109.add(jLabel205, java.awt.BorderLayout.CENTER);
 
+        jLabel206.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel206.setText("1");
         jLabel206.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel206.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2253,6 +2361,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel377.setText("A");
         jPanel110.add(jLabel377, java.awt.BorderLayout.CENTER);
 
+        jLabel378.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel378.setText("1");
         jLabel378.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel378.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2267,6 +2376,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel207.setText("A");
         jPanel111.add(jLabel207, java.awt.BorderLayout.CENTER);
 
+        jLabel208.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel208.setText("1");
         jLabel208.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel208.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2281,6 +2391,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel381.setText("A");
         jPanel112.add(jLabel381, java.awt.BorderLayout.CENTER);
 
+        jLabel382.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel382.setText("1");
         jLabel382.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel382.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2295,6 +2406,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel209.setText("A");
         jPanel113.add(jLabel209, java.awt.BorderLayout.CENTER);
 
+        jLabel210.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel210.setText("1");
         jLabel210.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel210.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2309,6 +2421,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel211.setText("A");
         jPanel114.add(jLabel211, java.awt.BorderLayout.CENTER);
 
+        jLabel212.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel212.setText("1");
         jLabel212.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel212.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2323,6 +2436,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel213.setText("A");
         jPanel115.add(jLabel213, java.awt.BorderLayout.CENTER);
 
+        jLabel214.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel214.setText("1");
         jLabel214.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel214.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2337,6 +2451,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel215.setText("A");
         jPanel116.add(jLabel215, java.awt.BorderLayout.CENTER);
 
+        jLabel216.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel216.setText("1");
         jLabel216.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel216.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2351,6 +2466,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel217.setText("A");
         jPanel117.add(jLabel217, java.awt.BorderLayout.CENTER);
 
+        jLabel218.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel218.setText("1");
         jLabel218.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel218.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2365,6 +2481,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel219.setText("A");
         jPanel118.add(jLabel219, java.awt.BorderLayout.CENTER);
 
+        jLabel220.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel220.setText("1");
         jLabel220.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel220.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2379,6 +2496,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel221.setText("A");
         jPanel119.add(jLabel221, java.awt.BorderLayout.CENTER);
 
+        jLabel222.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel222.setText("1");
         jLabel222.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel222.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2393,6 +2511,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel389.setText("A");
         jPanel120.add(jLabel389, java.awt.BorderLayout.CENTER);
 
+        jLabel390.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel390.setText("1");
         jLabel390.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel390.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2407,6 +2526,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel223.setText("A");
         jPanel121.add(jLabel223, java.awt.BorderLayout.CENTER);
 
+        jLabel224.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel224.setText("1");
         jLabel224.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel224.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2421,6 +2541,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel225.setText("A");
         jPanel122.add(jLabel225, java.awt.BorderLayout.CENTER);
 
+        jLabel226.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel226.setText("1");
         jLabel226.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel226.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2435,6 +2556,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel399.setText("A");
         jPanel123.add(jLabel399, java.awt.BorderLayout.CENTER);
 
+        jLabel400.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel400.setText("1");
         jLabel400.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel400.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2449,6 +2571,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel227.setText("A");
         jPanel124.add(jLabel227, java.awt.BorderLayout.CENTER);
 
+        jLabel228.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel228.setText("1");
         jLabel228.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel228.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2463,6 +2586,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel397.setText("A");
         jPanel125.add(jLabel397, java.awt.BorderLayout.CENTER);
 
+        jLabel398.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel398.setText("1");
         jLabel398.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel398.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2477,6 +2601,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel229.setText("A");
         jPanel126.add(jLabel229, java.awt.BorderLayout.CENTER);
 
+        jLabel230.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel230.setText("1");
         jLabel230.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel230.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2491,6 +2616,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel231.setText("A");
         jPanel127.add(jLabel231, java.awt.BorderLayout.CENTER);
 
+        jLabel232.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel232.setText("1");
         jLabel232.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel232.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2505,6 +2631,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel395.setText("A");
         jPanel128.add(jLabel395, java.awt.BorderLayout.CENTER);
 
+        jLabel396.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel396.setText("1");
         jLabel396.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel396.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2519,6 +2646,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel233.setText("A");
         jPanel129.add(jLabel233, java.awt.BorderLayout.CENTER);
 
+        jLabel234.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel234.setText("1");
         jLabel234.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel234.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2533,6 +2661,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel393.setText("A");
         jPanel130.add(jLabel393, java.awt.BorderLayout.CENTER);
 
+        jLabel394.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel394.setText("1");
         jLabel394.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel394.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2547,6 +2676,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel235.setText("A");
         jPanel131.add(jLabel235, java.awt.BorderLayout.CENTER);
 
+        jLabel236.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel236.setText("1");
         jLabel236.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel236.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2561,6 +2691,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel237.setText("A");
         jPanel132.add(jLabel237, java.awt.BorderLayout.CENTER);
 
+        jLabel238.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel238.setText("1");
         jLabel238.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel238.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2575,6 +2706,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel239.setText("A");
         jPanel133.add(jLabel239, java.awt.BorderLayout.CENTER);
 
+        jLabel240.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel240.setText("1");
         jLabel240.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel240.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2589,6 +2721,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel391.setText("A");
         jPanel134.add(jLabel391, java.awt.BorderLayout.CENTER);
 
+        jLabel392.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel392.setText("1");
         jLabel392.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel392.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2603,6 +2736,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel241.setText("A");
         jPanel135.add(jLabel241, java.awt.BorderLayout.CENTER);
 
+        jLabel242.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel242.setText("1");
         jLabel242.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel242.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2617,6 +2751,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel243.setText("A");
         jPanel136.add(jLabel243, java.awt.BorderLayout.CENTER);
 
+        jLabel244.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel244.setText("1");
         jLabel244.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel244.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2631,6 +2766,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel245.setText("A");
         jPanel137.add(jLabel245, java.awt.BorderLayout.CENTER);
 
+        jLabel246.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel246.setText("10");
         jLabel246.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel246.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2645,6 +2781,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel247.setText("A");
         jPanel138.add(jLabel247, java.awt.BorderLayout.CENTER);
 
+        jLabel248.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel248.setText("1");
         jLabel248.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel248.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2659,6 +2796,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel249.setText("A");
         jPanel139.add(jLabel249, java.awt.BorderLayout.CENTER);
 
+        jLabel250.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel250.setText("1");
         jLabel250.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel250.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2673,6 +2811,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel251.setText("A");
         jPanel140.add(jLabel251, java.awt.BorderLayout.CENTER);
 
+        jLabel252.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel252.setText("1");
         jLabel252.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel252.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2687,6 +2826,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel253.setText("A");
         jPanel141.add(jLabel253, java.awt.BorderLayout.CENTER);
 
+        jLabel254.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel254.setText("1");
         jLabel254.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel254.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2701,6 +2841,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel401.setText("A");
         jPanel142.add(jLabel401, java.awt.BorderLayout.CENTER);
 
+        jLabel402.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel402.setText("1");
         jLabel402.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel402.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2715,6 +2856,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel255.setText("A");
         jPanel143.add(jLabel255, java.awt.BorderLayout.CENTER);
 
+        jLabel256.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel256.setText("1");
         jLabel256.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel256.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2729,6 +2871,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel403.setText("A");
         jPanel144.add(jLabel403, java.awt.BorderLayout.CENTER);
 
+        jLabel404.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel404.setText("1");
         jLabel404.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel404.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2743,6 +2886,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel257.setText("A");
         jPanel145.add(jLabel257, java.awt.BorderLayout.CENTER);
 
+        jLabel258.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel258.setText("1");
         jLabel258.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel258.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2757,6 +2901,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel405.setText("A");
         jPanel146.add(jLabel405, java.awt.BorderLayout.CENTER);
 
+        jLabel406.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel406.setText("1");
         jLabel406.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel406.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2771,6 +2916,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel259.setText("A");
         jPanel147.add(jLabel259, java.awt.BorderLayout.CENTER);
 
+        jLabel260.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel260.setText("1");
         jLabel260.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel260.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2785,6 +2931,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel407.setText("A");
         jPanel148.add(jLabel407, java.awt.BorderLayout.CENTER);
 
+        jLabel408.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel408.setText("1");
         jLabel408.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel408.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2799,6 +2946,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel261.setText("A");
         jPanel149.add(jLabel261, java.awt.BorderLayout.CENTER);
 
+        jLabel262.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel262.setText("1");
         jLabel262.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel262.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2813,6 +2961,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel263.setText("A");
         jPanel150.add(jLabel263, java.awt.BorderLayout.CENTER);
 
+        jLabel264.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel264.setText("1");
         jLabel264.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel264.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2827,6 +2976,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel265.setText("A");
         jPanel151.add(jLabel265, java.awt.BorderLayout.CENTER);
 
+        jLabel266.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel266.setText("1");
         jLabel266.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel266.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2841,6 +2991,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel425.setText("A");
         jPanel152.add(jLabel425, java.awt.BorderLayout.CENTER);
 
+        jLabel426.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel426.setText("1");
         jLabel426.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel426.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2855,6 +3006,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel267.setText("A");
         jPanel153.add(jLabel267, java.awt.BorderLayout.CENTER);
 
+        jLabel268.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel268.setText("1");
         jLabel268.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel268.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2869,6 +3021,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel269.setText("A");
         jPanel154.add(jLabel269, java.awt.BorderLayout.CENTER);
 
+        jLabel270.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel270.setText("1");
         jLabel270.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel270.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2883,6 +3036,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel419.setText("A");
         jPanel155.add(jLabel419, java.awt.BorderLayout.CENTER);
 
+        jLabel420.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel420.setText("1");
         jLabel420.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel420.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2897,6 +3051,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel271.setText("A");
         jPanel156.add(jLabel271, java.awt.BorderLayout.CENTER);
 
+        jLabel272.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel272.setText("1");
         jLabel272.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel272.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2911,6 +3066,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel417.setText("A");
         jPanel157.add(jLabel417, java.awt.BorderLayout.CENTER);
 
+        jLabel418.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel418.setText("1");
         jLabel418.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel418.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2925,6 +3081,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel273.setText("A");
         jPanel158.add(jLabel273, java.awt.BorderLayout.CENTER);
 
+        jLabel274.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel274.setText("1");
         jLabel274.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel274.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2939,6 +3096,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel415.setText("A");
         jPanel159.add(jLabel415, java.awt.BorderLayout.CENTER);
 
+        jLabel416.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel416.setText("1");
         jLabel416.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel416.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2953,6 +3111,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel275.setText("A");
         jPanel160.add(jLabel275, java.awt.BorderLayout.CENTER);
 
+        jLabel276.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel276.setText("1");
         jLabel276.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel276.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2967,6 +3126,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel277.setText("A");
         jPanel161.add(jLabel277, java.awt.BorderLayout.CENTER);
 
+        jLabel278.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel278.setText("1");
         jLabel278.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel278.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2981,6 +3141,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel279.setText("A");
         jPanel162.add(jLabel279, java.awt.BorderLayout.CENTER);
 
+        jLabel280.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel280.setText("1");
         jLabel280.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel280.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -2995,6 +3156,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel409.setText("A");
         jPanel163.add(jLabel409, java.awt.BorderLayout.CENTER);
 
+        jLabel410.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel410.setText("1");
         jLabel410.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel410.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3009,6 +3171,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel281.setText("A");
         jPanel164.add(jLabel281, java.awt.BorderLayout.CENTER);
 
+        jLabel282.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel282.setText("1");
         jLabel282.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel282.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3023,6 +3186,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel283.setText("A");
         jPanel165.add(jLabel283, java.awt.BorderLayout.CENTER);
 
+        jLabel284.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel284.setText("1");
         jLabel284.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel284.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3037,6 +3201,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel285.setText("A");
         jPanel166.add(jLabel285, java.awt.BorderLayout.CENTER);
 
+        jLabel286.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel286.setText("1");
         jLabel286.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel286.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3051,6 +3216,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel427.setText("A");
         jPanel167.add(jLabel427, java.awt.BorderLayout.CENTER);
 
+        jLabel428.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel428.setText("12");
         jLabel428.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel428.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3065,6 +3231,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel287.setText("A");
         jPanel168.add(jLabel287, java.awt.BorderLayout.CENTER);
 
+        jLabel288.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel288.setText("1");
         jLabel288.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel288.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3079,6 +3246,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel289.setText("A");
         jPanel169.add(jLabel289, java.awt.BorderLayout.CENTER);
 
+        jLabel290.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel290.setText("1");
         jLabel290.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel290.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3093,6 +3261,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel421.setText("A");
         jPanel170.add(jLabel421, java.awt.BorderLayout.CENTER);
 
+        jLabel422.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel422.setText("1");
         jLabel422.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel422.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3107,6 +3276,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel291.setText("A");
         jPanel171.add(jLabel291, java.awt.BorderLayout.CENTER);
 
+        jLabel292.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel292.setText("1");
         jLabel292.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel292.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3121,6 +3291,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel293.setText("A");
         jPanel172.add(jLabel293, java.awt.BorderLayout.CENTER);
 
+        jLabel294.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel294.setText("1");
         jLabel294.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel294.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3135,6 +3306,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel295.setText("A");
         jPanel173.add(jLabel295, java.awt.BorderLayout.CENTER);
 
+        jLabel296.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel296.setText("1");
         jLabel296.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel296.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3149,6 +3321,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel297.setText("A");
         jPanel174.add(jLabel297, java.awt.BorderLayout.CENTER);
 
+        jLabel298.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel298.setText("1");
         jLabel298.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel298.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3163,6 +3336,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel299.setText("A");
         jPanel175.add(jLabel299, java.awt.BorderLayout.CENTER);
 
+        jLabel300.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel300.setText("1");
         jLabel300.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel300.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3177,6 +3351,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel301.setText("A");
         jPanel176.add(jLabel301, java.awt.BorderLayout.CENTER);
 
+        jLabel302.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel302.setText("1");
         jLabel302.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel302.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3191,6 +3366,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel413.setText("A");
         jPanel177.add(jLabel413, java.awt.BorderLayout.CENTER);
 
+        jLabel414.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel414.setText("1");
         jLabel414.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel414.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3205,6 +3381,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel303.setText("A");
         jPanel178.add(jLabel303, java.awt.BorderLayout.CENTER);
 
+        jLabel304.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel304.setText("1");
         jLabel304.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel304.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3219,6 +3396,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel411.setText("A");
         jPanel179.add(jLabel411, java.awt.BorderLayout.CENTER);
 
+        jLabel412.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel412.setText("1");
         jLabel412.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel412.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3233,6 +3411,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel305.setText("A");
         jPanel180.add(jLabel305, java.awt.BorderLayout.CENTER);
 
+        jLabel306.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel306.setText("1");
         jLabel306.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel306.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3247,6 +3426,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel307.setText("A");
         jPanel181.add(jLabel307, java.awt.BorderLayout.CENTER);
 
+        jLabel308.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel308.setText("1");
         jLabel308.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel308.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3261,6 +3441,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel309.setText("A");
         jPanel182.add(jLabel309, java.awt.BorderLayout.CENTER);
 
+        jLabel310.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel310.setText("1");
         jLabel310.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel310.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3275,6 +3456,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel311.setText("A");
         jPanel183.add(jLabel311, java.awt.BorderLayout.CENTER);
 
+        jLabel312.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel312.setText("1");
         jLabel312.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel312.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3289,6 +3471,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel313.setText("A");
         jPanel184.add(jLabel313, java.awt.BorderLayout.CENTER);
 
+        jLabel314.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel314.setText("1");
         jLabel314.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel314.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3303,6 +3486,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel423.setText("A");
         jPanel185.add(jLabel423, java.awt.BorderLayout.CENTER);
 
+        jLabel424.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel424.setText("1");
         jLabel424.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel424.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3317,6 +3501,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel315.setText("A");
         jPanel186.add(jLabel315, java.awt.BorderLayout.CENTER);
 
+        jLabel316.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel316.setText("1");
         jLabel316.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel316.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3331,6 +3516,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel317.setText("A");
         jPanel187.add(jLabel317, java.awt.BorderLayout.CENTER);
 
+        jLabel318.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel318.setText("1");
         jLabel318.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel318.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3345,6 +3531,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel429.setText("A");
         jPanel188.add(jLabel429, java.awt.BorderLayout.CENTER);
 
+        jLabel430.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel430.setText("1");
         jLabel430.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel430.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3359,6 +3546,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel319.setText("A");
         jPanel189.add(jLabel319, java.awt.BorderLayout.CENTER);
 
+        jLabel320.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel320.setText("1");
         jLabel320.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel320.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3373,6 +3561,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel321.setText("A");
         jPanel190.add(jLabel321, java.awt.BorderLayout.CENTER);
 
+        jLabel322.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel322.setText("1");
         jLabel322.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel322.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3387,6 +3576,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel431.setText("A");
         jPanel191.add(jLabel431, java.awt.BorderLayout.CENTER);
 
+        jLabel432.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel432.setText("1");
         jLabel432.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel432.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3401,6 +3591,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel323.setText("A");
         jPanel192.add(jLabel323, java.awt.BorderLayout.CENTER);
 
+        jLabel324.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel324.setText("1");
         jLabel324.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel324.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3415,6 +3606,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel325.setText("A");
         jPanel193.add(jLabel325, java.awt.BorderLayout.CENTER);
 
+        jLabel326.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel326.setText("1");
         jLabel326.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel326.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3429,6 +3621,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel327.setText("A");
         jPanel194.add(jLabel327, java.awt.BorderLayout.CENTER);
 
+        jLabel328.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel328.setText("1");
         jLabel328.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel328.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3443,6 +3636,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel329.setText("A");
         jPanel195.add(jLabel329, java.awt.BorderLayout.CENTER);
 
+        jLabel330.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel330.setText("1");
         jLabel330.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel330.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3457,6 +3651,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel433.setText("A");
         jPanel196.add(jLabel433, java.awt.BorderLayout.CENTER);
 
+        jLabel434.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel434.setText("1");
         jLabel434.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel434.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3471,6 +3666,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel331.setText("A");
         jPanel197.add(jLabel331, java.awt.BorderLayout.CENTER);
 
+        jLabel332.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel332.setText("14");
         jLabel332.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel332.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3485,6 +3681,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel333.setText("A");
         jPanel198.add(jLabel333, java.awt.BorderLayout.CENTER);
 
+        jLabel334.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel334.setText("1");
         jLabel334.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel334.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3499,6 +3696,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel447.setText("A");
         jPanel199.add(jLabel447, java.awt.BorderLayout.CENTER);
 
+        jLabel448.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel448.setText("1");
         jLabel448.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel448.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3513,6 +3711,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel335.setText("A");
         jPanel200.add(jLabel335, java.awt.BorderLayout.CENTER);
 
+        jLabel336.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel336.setText("1");
         jLabel336.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel336.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3527,6 +3726,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel337.setText("A");
         jPanel201.add(jLabel337, java.awt.BorderLayout.CENTER);
 
+        jLabel338.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel338.setText("1");
         jLabel338.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel338.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3541,6 +3741,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel339.setText("A");
         jPanel202.add(jLabel339, java.awt.BorderLayout.CENTER);
 
+        jLabel340.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel340.setText("1");
         jLabel340.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel340.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3555,6 +3756,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel443.setText("A");
         jPanel203.add(jLabel443, java.awt.BorderLayout.CENTER);
 
+        jLabel444.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel444.setText("1");
         jLabel444.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel444.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3569,6 +3771,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel341.setText("A");
         jPanel204.add(jLabel341, java.awt.BorderLayout.CENTER);
 
+        jLabel342.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel342.setText("1");
         jLabel342.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel342.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3583,6 +3786,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel343.setText("A");
         jPanel205.add(jLabel343, java.awt.BorderLayout.CENTER);
 
+        jLabel344.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel344.setText("1");
         jLabel344.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel344.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3597,6 +3801,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel345.setText("A");
         jPanel206.add(jLabel345, java.awt.BorderLayout.CENTER);
 
+        jLabel346.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel346.setText("1");
         jLabel346.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel346.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3611,6 +3816,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel437.setText("A");
         jPanel207.add(jLabel437, java.awt.BorderLayout.CENTER);
 
+        jLabel438.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel438.setText("1");
         jLabel438.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel438.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3625,6 +3831,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel347.setText("A");
         jPanel208.add(jLabel347, java.awt.BorderLayout.CENTER);
 
+        jLabel348.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel348.setText("1");
         jLabel348.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel348.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3639,6 +3846,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel349.setText("A");
         jPanel209.add(jLabel349, java.awt.BorderLayout.CENTER);
 
+        jLabel350.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel350.setText("1");
         jLabel350.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel350.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3653,6 +3861,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel351.setText("A");
         jPanel210.add(jLabel351, java.awt.BorderLayout.CENTER);
 
+        jLabel352.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel352.setText("1");
         jLabel352.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel352.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3667,6 +3876,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel435.setText("A");
         jPanel211.add(jLabel435, java.awt.BorderLayout.CENTER);
 
+        jLabel436.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel436.setText("1");
         jLabel436.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel436.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3681,6 +3891,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel353.setText("A");
         jPanel212.add(jLabel353, java.awt.BorderLayout.CENTER);
 
+        jLabel354.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel354.setText("15");
         jLabel354.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel354.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3695,6 +3906,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel449.setText("A");
         jPanel213.add(jLabel449, java.awt.BorderLayout.CENTER);
 
+        jLabel450.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel450.setText("1");
         jLabel450.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel450.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3709,6 +3921,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel355.setText("A");
         jPanel214.add(jLabel355, java.awt.BorderLayout.CENTER);
 
+        jLabel356.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel356.setText("1");
         jLabel356.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel356.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3723,6 +3936,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel445.setText("A");
         jPanel215.add(jLabel445, java.awt.BorderLayout.CENTER);
 
+        jLabel446.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel446.setText("1");
         jLabel446.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel446.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3737,6 +3951,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel357.setText("A");
         jPanel216.add(jLabel357, java.awt.BorderLayout.CENTER);
 
+        jLabel358.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel358.setText("1");
         jLabel358.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel358.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3751,6 +3966,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel359.setText("A");
         jPanel217.add(jLabel359, java.awt.BorderLayout.CENTER);
 
+        jLabel360.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel360.setText("1");
         jLabel360.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel360.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3765,6 +3981,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel361.setText("A");
         jPanel218.add(jLabel361, java.awt.BorderLayout.CENTER);
 
+        jLabel362.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel362.setText("1");
         jLabel362.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel362.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3779,6 +3996,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel363.setText("A");
         jPanel219.add(jLabel363, java.awt.BorderLayout.CENTER);
 
+        jLabel364.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel364.setText("1");
         jLabel364.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel364.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3793,6 +4011,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel365.setText("A");
         jPanel220.add(jLabel365, java.awt.BorderLayout.CENTER);
 
+        jLabel366.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel366.setText("1");
         jLabel366.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel366.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3807,6 +4026,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel367.setText("A");
         jPanel221.add(jLabel367, java.awt.BorderLayout.CENTER);
 
+        jLabel368.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel368.setText("1");
         jLabel368.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel368.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3821,6 +4041,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel441.setText("A");
         jPanel222.add(jLabel441, java.awt.BorderLayout.CENTER);
 
+        jLabel442.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel442.setText("1");
         jLabel442.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel442.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3835,6 +4056,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel369.setText("A");
         jPanel223.add(jLabel369, java.awt.BorderLayout.CENTER);
 
+        jLabel370.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel370.setText("1");
         jLabel370.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel370.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3849,6 +4071,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel439.setText("A");
         jPanel224.add(jLabel439, java.awt.BorderLayout.CENTER);
 
+        jLabel440.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel440.setText("1");
         jLabel440.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel440.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3863,6 +4086,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel371.setText("A");
         jPanel225.add(jLabel371, java.awt.BorderLayout.CENTER);
 
+        jLabel372.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel372.setText("1");
         jLabel372.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel372.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -3877,6 +4101,7 @@ public class guiFrame extends javax.swing.JFrame {
         jLabel373.setText("A");
         jPanel226.add(jLabel373, java.awt.BorderLayout.CENTER);
 
+        jLabel374.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         jLabel374.setText("1");
         jLabel374.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel374.setVerticalTextPosition(javax.swing.SwingConstants.TOP);

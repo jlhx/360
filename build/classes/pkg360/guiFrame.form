@@ -104,6 +104,9 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -151,6 +154,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="2"/>
               </Properties>
               <Constraints>
@@ -183,6 +189,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel6">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -219,6 +228,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel8">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="4"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -255,6 +267,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel10">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -291,6 +306,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel12">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="6"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -327,6 +345,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel14">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -363,6 +384,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel16">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="8"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -399,6 +423,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel18">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -435,6 +462,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel20">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="10"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -471,6 +501,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel22">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -507,6 +540,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel24">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="12"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -543,6 +579,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel26">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -579,6 +618,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel28">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="14"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -615,6 +657,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel30">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="15"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -651,6 +696,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel32">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="2"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -687,6 +735,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel34">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -723,6 +774,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel36">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -759,6 +813,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel38">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -795,6 +852,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel40">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -831,6 +891,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel42">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -867,6 +930,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel44">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -903,6 +969,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel46">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -939,6 +1008,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel48">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -975,6 +1047,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel50">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1011,6 +1086,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel52">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1047,6 +1125,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel54">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1083,6 +1164,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel56">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1119,6 +1203,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel58">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1155,6 +1242,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel60">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1191,6 +1281,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel62">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="3"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1227,6 +1320,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel64">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1263,6 +1359,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel66">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1299,6 +1398,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel68">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1335,6 +1437,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel70">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1371,6 +1476,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel72">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1407,6 +1515,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel74">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1443,6 +1554,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel76">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1479,6 +1593,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel78">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1515,6 +1632,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel80">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1551,6 +1671,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel82">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1587,6 +1710,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel84">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1623,6 +1749,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel86">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1659,6 +1788,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel88">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1695,6 +1827,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel90">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1731,6 +1866,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel92">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="4"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1767,6 +1905,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel94">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1803,6 +1944,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel98">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1839,6 +1983,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel96">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1875,6 +2022,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel100">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1911,6 +2061,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel102">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1947,6 +2100,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel104">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -1983,6 +2139,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel106">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2019,6 +2178,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel108">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2055,6 +2217,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel110">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2091,6 +2256,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel112">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2127,6 +2295,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel114">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2163,6 +2334,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel116">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2199,6 +2373,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel118">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2235,6 +2412,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel120">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2271,6 +2451,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel122">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="5"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2307,6 +2490,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel124">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2343,6 +2529,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel126">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2379,6 +2568,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel128">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2415,6 +2607,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel130">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2451,6 +2646,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel132">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2487,6 +2685,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel134">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2523,6 +2724,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel136">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2559,6 +2763,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel138">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2595,6 +2802,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel140">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2631,6 +2841,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel142">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2667,6 +2880,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel144">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2703,6 +2919,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel146">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2739,6 +2958,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel148">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2775,6 +2997,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel150">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2811,6 +3036,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel152">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="6"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2847,6 +3075,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel154">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2883,6 +3114,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel156">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2919,6 +3153,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel158">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2955,6 +3192,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel160">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -2991,6 +3231,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel162">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3027,6 +3270,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel164">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3063,6 +3309,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel166">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3099,6 +3348,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel168">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3135,6 +3387,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel170">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3171,6 +3426,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel172">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3207,6 +3465,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel174">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3243,6 +3504,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel176">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3279,6 +3543,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel178">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3315,6 +3582,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel180">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3351,6 +3621,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel182">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3387,6 +3660,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel184">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3423,6 +3699,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel186">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3459,6 +3738,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel188">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3495,6 +3777,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel380">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3531,6 +3816,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel190">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3567,6 +3855,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel192">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3603,6 +3894,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel194">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3639,6 +3933,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel384">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3675,6 +3972,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel196">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3711,6 +4011,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel386">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3747,6 +4050,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel198">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3783,6 +4089,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel388">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3819,6 +4128,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel200">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3855,6 +4167,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel202">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3891,6 +4206,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel204">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="8"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3927,6 +4245,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel376">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3963,6 +4284,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel206">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -3999,6 +4323,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel378">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4035,6 +4362,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel208">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4071,6 +4401,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel382">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4107,6 +4440,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel210">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4143,6 +4479,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel212">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4179,6 +4518,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel214">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4215,6 +4557,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel216">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4251,6 +4596,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel218">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4287,6 +4635,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel220">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4323,6 +4674,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel222">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4359,6 +4713,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel390">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4395,6 +4752,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel224">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4431,6 +4791,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel226">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4467,6 +4830,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel400">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4503,6 +4869,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel228">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4539,6 +4908,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel398">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4575,6 +4947,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel230">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4611,6 +4986,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel232">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4647,6 +5025,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel396">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4683,6 +5064,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel234">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4719,6 +5103,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel394">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4755,6 +5142,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel236">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4791,6 +5181,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel238">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4827,6 +5220,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel240">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4863,6 +5259,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel392">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4899,6 +5298,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel242">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4935,6 +5337,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel244">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -4971,6 +5376,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel246">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="10"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5007,6 +5415,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel248">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5043,6 +5454,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel250">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5079,6 +5493,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel252">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5115,6 +5532,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel254">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5151,6 +5571,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel402">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5187,6 +5610,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel256">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5223,6 +5649,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel404">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5259,6 +5688,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel258">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5295,6 +5727,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel406">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5331,6 +5766,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel260">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5367,6 +5805,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel408">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5403,6 +5844,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel262">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5439,6 +5883,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel264">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5475,6 +5922,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel266">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5511,6 +5961,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel426">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5547,6 +6000,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel268">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5583,6 +6039,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel270">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5619,6 +6078,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel420">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5655,6 +6117,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel272">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5691,6 +6156,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel418">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5727,6 +6195,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel274">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5763,6 +6234,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel416">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5799,6 +6273,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel276">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5835,6 +6312,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel278">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5871,6 +6351,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel280">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5907,6 +6390,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel410">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5943,6 +6429,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel282">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -5979,6 +6468,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel284">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6015,6 +6507,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel286">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6051,6 +6546,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel428">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="12"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6087,6 +6585,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel288">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6123,6 +6624,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel290">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6159,6 +6663,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel422">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6195,6 +6702,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel292">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6231,6 +6741,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel294">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6267,6 +6780,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel296">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6303,6 +6819,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel298">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6339,6 +6858,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel300">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6375,6 +6897,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel302">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6411,6 +6936,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel414">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6447,6 +6975,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel304">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6483,6 +7014,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel412">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6519,6 +7053,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel306">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6555,6 +7092,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel308">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6591,6 +7131,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel310">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6627,6 +7170,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel312">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6663,6 +7209,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel314">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6699,6 +7248,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel424">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6735,6 +7287,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel316">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6771,6 +7326,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel318">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6807,6 +7365,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel430">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6843,6 +7404,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel320">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6879,6 +7443,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel322">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6915,6 +7482,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel432">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6951,6 +7521,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel324">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -6987,6 +7560,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel326">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7023,6 +7599,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel328">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7059,6 +7638,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel330">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7095,6 +7677,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel434">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7131,6 +7716,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel332">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="14"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7167,6 +7755,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel334">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7203,6 +7794,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel448">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7239,6 +7833,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel336">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7275,6 +7872,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel338">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7311,6 +7911,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel340">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7347,6 +7950,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel444">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7383,6 +7989,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel342">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7419,6 +8028,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel344">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7455,6 +8067,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel346">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7491,6 +8106,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel438">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7527,6 +8145,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel348">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7563,6 +8184,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel350">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7599,6 +8223,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel352">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7635,6 +8262,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel436">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7671,6 +8301,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel354">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="15"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7707,6 +8340,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel450">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7743,6 +8379,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel356">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7779,6 +8418,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel446">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7815,6 +8457,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel358">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7851,6 +8496,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel360">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7887,6 +8535,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel362">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7923,6 +8574,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel364">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7959,6 +8613,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel366">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -7995,6 +8652,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel368">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -8031,6 +8691,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel442">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -8067,6 +8730,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel370">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -8103,6 +8769,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel440">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -8139,6 +8808,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel372">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -8175,6 +8847,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel374">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="8" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="1"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
