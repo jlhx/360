@@ -17,7 +17,6 @@ public class Main {
         */
     }
     public static boolean startTimer() {
-        // TODO add a pause on score
         // TODO change to start on second login if 2-player mode
         // TODO reset on newgame
         // Start timer
@@ -25,9 +24,10 @@ public class Main {
         int period = 1000;  // repeat every sec.
         
         Transfer t = Transfer.getInstance();
-        //if( t.timer == null ) {
-            t.timer = new Timer();
-        //}
+        if( t.timer != null ) {
+            t.timer.cancel();
+        }
+        t.timer = new Timer();
         
 
         t.timer.scheduleAtFixedRate(new TimerTask() {

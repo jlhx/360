@@ -4308,6 +4308,7 @@ public class guiFrame extends javax.swing.JFrame {
         t.textScorep1 = this.textScore1;
         t.lscr1.setVisible(false);
         t.lpla1.setVisible(false);
+        t.textScorep1.setEditable(false);
         t.textScorep1.setVisible(false);
         
         t.isPaused = false;
@@ -4439,7 +4440,7 @@ public class guiFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_listHorizontalMouseReleased
 
     private void buttonPauseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonPauseActionPerformed
-        // TODO test if code works
+        // TODO make it so pause says unpause and revense on click and make the hints unselectable
         Transfer t = Transfer.getInstance();
         t.isPaused = !t.isPaused;
     }//GEN-LAST:event_buttonPauseActionPerformed

@@ -155,6 +155,12 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
                 d.uNumPlayers = listNumbPlayers.getSelectedIndex()+1;
                 d.uBoard_.bScore = new Score(0.0, -1);
                 
+                if( d.uNumPlayers == 2 ) {
+                    t.lscr1.setVisible(true);
+                    t.lpla1.setVisible(true);
+                    t.textScorep1.setVisible(true);
+                }
+                
                 InputTest it = new InputTest();
                 it.main();
                 Vector<Hint> v = it.getHints();

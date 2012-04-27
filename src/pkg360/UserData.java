@@ -10,7 +10,7 @@ public class UserData {
    public String uSaveName;
    public Hint[] uHints;
    public int uDifficulty; // Easy, Medium, Hard: 1,2,3
-   public int uNumPlayers;
+   public int uNumPlayers; // 1,2
    protected UserData() {
       // Exists only to defeat instantiation.
    }
