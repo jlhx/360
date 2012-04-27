@@ -4364,7 +4364,7 @@ public class guiFrame extends javax.swing.JFrame {
                     //System.out.println("^"+line+"^");
                 }
                 else {
-                    Score[] tmpScore = {d.uBoard_.bScore};
+                    Score[] tmpScore = null;
                     line = gson.toJson(tmpScore);
                 }
                 Score[] scoreList = gson.fromJson(line, Score[].class);
