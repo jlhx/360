@@ -35,6 +35,8 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
         listDifficulty = new javax.swing.JList();
         jScrollPane3 = new javax.swing.JScrollPane();
         listNumbPlayers = new javax.swing.JList();
+        labelMessage1 = new javax.swing.JLabel();
+        labelMessage2 = new javax.swing.JLabel();
 
         setTitle("Puzzle Selector");
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -99,10 +101,15 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
                     .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(buttonCancel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(buttonStartGame, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(0, 7, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(buttonCancel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(buttonStartGame, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(labelMessage1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(labelMessage2, javax.swing.GroupLayout.DEFAULT_SIZE, 94, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -115,10 +122,17 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                        .addGap(6, 6, 6)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 72, Short.MAX_VALUE)
+                                .addGap(6, 6, 6))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(labelMessage1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(labelMessage2, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(buttonStartGame)
@@ -258,8 +272,7 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
             }
         }
         else {
-            //TODO don't allow loading save games on 2player
-            if( listSelect.getSelectedIndex() != -1 ) {
+            if( listSelect.getSelectedIndex() != -1 && listNumbPlayers.getSelectedIndex() == 0 ) {
                 String lookfor = listSelect.getSelectedValue().toString();
                 System.out.println(s.userSaves.length);
                 System.out.println(s.userSaves[0].uSaveName);
@@ -277,6 +290,7 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
                 d.uHints =      s.userSaves[i].uHints;
                 d.uDifficulty = s.userSaves[i].uDifficulty; // Easy, Medium, Hard: 1,2,3
                 d.uNumPlayers = s.userSaves[i].uNumPlayers;
+
 
                 for (int j = 0; j < 15; j++) {
                     for (int k = 0; k < 15; k++) {
@@ -315,6 +329,13 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
                 }
                 t.horizontalContain.setModel(listHorizontal);
                 t.verticalContain.setModel(listVertical);
+                
+                Main.startTimer();
+                this.setVisible(false);
+            }
+            if( listNumbPlayers.getSelectedIndex() == 1 ) {
+                labelMessage1.setText("2 player not");
+                labelMessage2.setText("allowed to resume");
             }
         }
     }//GEN-LAST:event_buttonStartGameActionPerformed
@@ -391,6 +412,8 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JLabel labelMessage1;
+    private javax.swing.JLabel labelMessage2;
     private javax.swing.JList listDifficulty;
     private javax.swing.JList listNumbPlayers;
     private javax.swing.JList listSelect;
