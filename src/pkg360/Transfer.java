@@ -27,8 +27,8 @@ public class Transfer {
     
     Timer timer;
     
-    public JLabel lscr1;
-    public JLabel lpla1;
+    public JLabel scoreExtraContain;
+    public JLabel lp2l;
     public JTextField textScorep1;
     
     public boolean isPaused;

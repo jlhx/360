@@ -156,8 +156,8 @@ public class puzzleSelectorFrame extends javax.swing.JFrame {
                 d.uBoard_.bScore = new Score(0.0, -1);
                 
                 if( d.uNumPlayers == 2 ) {
-                    t.lscr1.setVisible(true);
-                    t.lpla1.setVisible(true);
+                    t.scoreExtraContain.setVisible(true);
+                    t.lp2l.setVisible(true);
                     t.textScorep1.setVisible(true);
                 }
                 
