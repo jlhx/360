@@ -23,6 +23,7 @@ public class Transfer {
     public JPanel[][] contain;
     
     public loginFrame tLF;
+    public puzzleSelectorFrame psf;
     
     Timer timer;
     

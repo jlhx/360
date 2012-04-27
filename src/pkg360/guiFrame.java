@@ -4347,7 +4347,8 @@ public class guiFrame extends javax.swing.JFrame {
         Transfer t = Transfer.getInstance();
         if( d.uName != null ) {
             puzzleSelectorFrame puzzleSelector = new puzzleSelectorFrame();
-            puzzleSelector.setVisible(true);
+            t.psf = puzzleSelector;
+            t.psf.setVisible(true);
         }
         else {
             t.tLF.toFront();
@@ -4522,9 +4523,7 @@ public class guiFrame extends javax.swing.JFrame {
         d.uBoard_= b_;
         textScore.setEditable(false);
         textTime.setEditable(false);
-        loginFrame lf = new loginFrame();
-        t.tLF = lf;
-        lf.setVisible(true);
+        
         //this.setFocusableWindowState(false);
         
         t.scoreExtraContain = this.labelHidden1;
@@ -4541,6 +4540,10 @@ public class guiFrame extends javax.swing.JFrame {
         
         t.lTurn = this.labelTurn;
         t.lTurn.setVisible(false);
+        
+        loginFrame lf = new loginFrame();
+        t.tLF = lf;
+        lf.setVisible(true);
     }//GEN-LAST:event_formWindowOpened
 
     private void buttonScoreGameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonScoreGameActionPerformed

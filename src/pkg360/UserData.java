@@ -5,6 +5,7 @@ package pkg360;
 public class UserData {
    private static UserData instance = null;
    public String uName;         // Username. Same as login
+   public String uName2;
    public Board uBoard_;        // Board info storage. See Board.java
    public int uBoardSize;       // ([\d]{1,}) | \0 > 1 && < 15
    public String uSaveName;     // SaveState name : save[\d]{1,}

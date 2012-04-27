@@ -111,69 +111,115 @@ public class loginFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void buttonCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonCancelActionPerformed
-        System.exit(0);
+        UserData d = UserData.getInstance();
+        if( d.uBoard_.p2Score != null ) {
+            this.setVisible(false);
+        }
+        else {
+            System.exit(0);
+        }
     }//GEN-LAST:event_buttonCancelActionPerformed
 
     private void buttonLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonLoginActionPerformed
         UserData d = UserData.getInstance();
-        d.uName = textUsername.getText();
+        Transfer t = Transfer.getInstance();
         String line = "";
         Gson gson = new Gson();
-        //
-        try {
-            File f = new File("users.txt");
-            if(f.exists()) {
-                BufferedReader reader = 
-                    new BufferedReader( 
-                        new FileReader("users.txt") );
-                line = reader.readLine();
-                //System.out.println("^"+line+"^");
-            }
-            else {
-                UserPW[] t = {new UserPW("cd","cd")};
-                line = gson.toJson(t);
-            }
-        UserPW[] upwList = gson.fromJson(line, UserPW[].class);
-        for (int i = 0; i < upwList.length; i++) {
-            System.out.println("^"+upwList[i].uName+"^"+upwList[i].uPW+"^");
-            if( d.uName.compareTo(upwList[i].uName) == 0 ) {
-                //Username is correct
-                if( textPassword.getText().compareTo(upwList[i].uPW) == 0 ) {
-                    //PW is correct
-                    this.setVisible(false);
-                    System.out.println("entering new pull");
-                    try {
-                        File fin = new File("saves.txt");
-                        if(fin.exists()) {
-                            BufferedReader reader = 
-                                new BufferedReader( 
-                                    new FileReader("saves.txt") );
-                            line = reader.readLine();
-                            //System.out.println("^"+line+"^");
-                        }
-                        else {
-                            UserData[] t = {d};
-                            line = gson.toJson(t);
-                        }
-                    }
-                    catch( Exception e ) {
-                        System.out.println("Exceptione is ="+e.getMessage());
-                    }
-                    UserData[] dataList = gson.fromJson(line, UserData[].class);
-                    SaveData s = SaveData.getInstance();
-                    s.userSaves = dataList;
-                    System.out.println("exiting new pull");
+        System.out.println("numplay: "+d.uNumPlayers);
+        if( d.uNumPlayers == 0 ) {
+            d.uName = textUsername.getText();
+            try {
+                File f = new File("users.txt");
+                if(f.exists()) {
+                    BufferedReader reader = 
+                        new BufferedReader( 
+                            new FileReader("users.txt") );
+                    line = reader.readLine();
                 }
-                else{
-                    //PW Wrong
-                    labelExtra.setText("Wrong PW");
+                else {
+                    UserPW[] tm = {new UserPW("cd","cd")};
+                    line = gson.toJson(tm);
                 }
+            UserPW[] upwList = gson.fromJson(line, UserPW[].class);
+            for (int i = 0; i < upwList.length; i++) {
+                System.out.println("^"+upwList[i].uName+"^"+upwList[i].uPW+"^");
+                if( d.uName.compareTo(upwList[i].uName) == 0 ) {
+                    //Username is correct
+                    if( textPassword.getText().compareTo(upwList[i].uPW) == 0 ) {
+                        //PW is correct
+                        this.setVisible(false);
+                        System.out.println("entering new pull");
+                        try {
+                            File fin = new File("saves.txt");
+                            if(fin.exists()) {
+                                BufferedReader reader = 
+                                    new BufferedReader( 
+                                        new FileReader("saves.txt") );
+                                line = reader.readLine();
+                                //System.out.println("^"+line+"^");
+                            }
+                            else {
+                                UserData[] tm = {d};
+                                line = gson.toJson(tm);
+                            }
+                        }
+                        catch( Exception e ) {
+                            System.out.println("Exceptione is ="+e.getMessage());
+                        }
+                        UserData[] dataList = gson.fromJson(line, UserData[].class);
+                        SaveData s = SaveData.getInstance();
+                        s.userSaves = dataList;
+                        System.out.println("exiting new pull");
+                    }
+                    else{
+                        //PW Wrong
+                        labelExtra.setText("Wrong PW");
+                    }
+                }
+            }
+            labelExtra.setText("New Name");
+            }
+            catch( Exception e ) {
+                System.out.println("Exceptione is ="+e.getMessage());
             }
         }
-        labelExtra.setText("New Name");
-        }
-        catch( Exception e ) {
-            System.out.println("Exceptione is ="+e.getMessage());
+        else if(d.uNumPlayers == 2) {
+            d.uName2 = textUsername.getText();
+            try {
+                File f = new File("users.txt");
+                if(f.exists()) {
+                    BufferedReader reader = 
+                        new BufferedReader( 
+                            new FileReader("users.txt") );
+                    line = reader.readLine();
+                }
+                else {
+                    UserPW[] tm = {new UserPW("cd","cd")};
+                    line = gson.toJson(tm);
+                }
+            UserPW[] upwList = gson.fromJson(line, UserPW[].class);
+            for (int i = 0; i < upwList.length; i++) {
+                System.out.println("^"+upwList[i].uName+"^"+upwList[i].uPW+"^");
+                if( d.uName2.compareTo(upwList[i].uName) == 0 ) {
+                    //Username is correct
+                    if( textPassword.getText().compareTo(upwList[i].uPW) == 0 ) {
+                        //PW is correct
+                        Main.setup();
+                        Main.startTimer();
+                        t.psf.setVisible(false);
+                        this.setVisible(false);
+                    }
+                    else{
+                        //PW Wrong
+                        labelExtra.setText("Wrong PW");
+                    }
+                }
+            }
+            labelExtra.setText("New Name");
+            }
+            catch( Exception e ) {
+                System.out.println("Exceptione is ="+e.getMessage());
+            }
         }
     }//GEN-LAST:event_buttonLoginActionPerformed
 
