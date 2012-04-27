@@ -4330,59 +4330,62 @@ public class guiFrame extends javax.swing.JFrame {
                             tmp += 10;
                         }
                     }
-                    if(d.uDifficulty == 3) {
-                        System.out.print("hard score" + tmp );
-                        double sz = d.uHints.length * 20;
-                        tmp *= ((sz-d.uBoard_.time) / sz);
-                        System.out.println(" to -> "+tmp);
-                    }
-                    else if(d.uDifficulty == 2) {
-                        System.out.print("medium score" + tmp );
-                        double sz = d.uHints.length * 30;
-                        tmp *= ((sz-d.uBoard_.time) / sz);
-                        System.out.println(" to -> "+tmp);
-                    }
-                    tmp = (double)(((int)(tmp*1000))/1000);
                     d.uBoard_.bScore = new Score(tmp, d.uBoard_.time);
-                    
-                    try {
-                        File f = new File("scores.txt");
-                        if(f.exists()) {
-                            BufferedReader reader = 
-                                new BufferedReader( 
-                                    new FileReader("scores.txt") );
-                            line = reader.readLine();
-                            //System.out.println("^"+line+"^");
-                        }
-                        else {
-                            Score[] tmpScore = {d.uBoard_.bScore};
-                            line = gson.toJson(tmpScore);
-                        }
-                        Score[] scoreList = gson.fromJson(line, Score[].class);
-                        if( scoreList == null ) {
-                            scoreList = Main.expand(scoreList, 1);
-                        }
-                        else {
-                            scoreList = Main.expand(scoreList, scoreList.length+1);
-                        }
-                        scoreList[scoreList.length-1] = d.uBoard_.bScore;
-                        
-                        PrintWriter out = new PrintWriter(
-                            new FileWriter("scores.txt"));
-                        out.print( gson.toJson(scoreList) );
-                        out.close();
-                        
-                        playerStatsFrame psf = new playerStatsFrame();
-                        psf.setVisible(true);
-                    }
-                    catch(Exception e) {
-                        System.out.println("Exceptione is ="+e.getMessage());
-                    }
                 }
                 else {
                     playerStatsFrame psf = new playerStatsFrame();
                     psf.setVisible(true);
                 }
+            }
+            double tmp = 0.0;
+            if(d.uDifficulty == 3) {
+                System.out.print("hard score" + tmp );
+                double sz = d.uHints.length * 20;
+                tmp *= ((sz-d.uBoard_.time) / sz);
+                System.out.println(" to -> "+tmp);
+            }
+            else if(d.uDifficulty == 2) {
+                System.out.print("medium score" + tmp );
+                double sz = d.uHints.length * 30;
+                tmp *= ((sz-d.uBoard_.time) / sz);
+                System.out.println(" to -> "+tmp);
+            }
+            d.uBoard_.bScore.uScore = (double)(((int)(tmp*1000))/1000);
+            if( d.uBoard_.bScore.endtime != d.uBoard_.time ) {
+                d.uBoard_.bScore.endtime = d.uBoard_.time;
+            }
+            try {
+                File f = new File("scores.txt");
+                if(f.exists()) {
+                    BufferedReader reader = 
+                        new BufferedReader( 
+                            new FileReader("scores.txt") );
+                    line = reader.readLine();
+                    //System.out.println("^"+line+"^");
+                }
+                else {
+                    Score[] tmpScore = {d.uBoard_.bScore};
+                    line = gson.toJson(tmpScore);
+                }
+                Score[] scoreList = gson.fromJson(line, Score[].class);
+                if( scoreList == null ) {
+                    scoreList = Main.expand(scoreList, 1);
+                }
+                else {
+                    scoreList = Main.expand(scoreList, scoreList.length+1);
+                }
+                scoreList[scoreList.length-1] = d.uBoard_.bScore;
+
+                PrintWriter out = new PrintWriter(
+                    new FileWriter("scores.txt"));
+                out.print( gson.toJson(scoreList) );
+                out.close();
+
+                playerStatsFrame psf = new playerStatsFrame();
+                psf.setVisible(true);
+            }
+            catch(Exception e) {
+                System.out.println("Exceptione is ="+e.getMessage());
             }
             textScore.setText(""+d.uBoard_.bScore.uScore);
             Main.cancelTimer();

@@ -118,6 +118,16 @@ public class wordSubmitFrame extends javax.swing.JFrame {
             for ( i = 0; i < d.uHints.length; i++) {
                 if( d.uHints[i].compareTo(tmp) == 0 ) {
                     d.uHints[i].guess = word;
+                    //TODO check actual scores for med/hard
+                    if( d.uDifficulty == 3 ) {
+                        //Hard difficulty removes points on wrong word.
+                        if( d.uHints[i].guess.compareTo(d.uHints[i].answer) != 0 ) {
+                            d.uBoard_.bScore.uScore--;
+                        }
+                        else{
+                            d.uBoard_.bScore.uScore += 10;
+                        }
+                    }
                     break;
                 }
             }
